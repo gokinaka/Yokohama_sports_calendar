@@ -14,7 +14,7 @@ if (!url) {
   process.exit(1);
 }
 
-function findAnchorContexts(html, anchor, maxMatches = 2, before = 300, after = 1200) {
+function findAnchorContexts(html, anchor, maxMatches = 2, before = 300, after = 2200) {
   const contexts = [];
   let fromIndex = 0;
   while (contexts.length < maxMatches) {
