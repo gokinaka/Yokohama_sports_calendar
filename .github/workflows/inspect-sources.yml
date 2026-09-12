@@ -1,0 +1,18 @@
+name: Inspect data sources
+
+# データソース候補ページの実際の構造(robots.txt / JSON-LD / .ics リンクの有無)を
+# 確認するための調査用ワークフロー。本番のスクレイピングではなく、
+# 実データ取得スクリプトを設計する前の下調べとして手動実行する。
+on:
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run source inspection
+        run: node scripts/inspect-sources.mjs

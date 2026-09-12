@@ -1,0 +1,73 @@
+[
+  {
+    "team": "横浜F・マリノス",
+    "sport": "soccer",
+    "league": "J1",
+    "candidateUrls": [
+      "https://www.jleague.jp/sp/match/search/all/all/yokohamafm/",
+      "https://www.f-marinos.com/matches/schedule"
+    ]
+  },
+  {
+    "team": "川崎フロンターレ",
+    "sport": "soccer",
+    "league": "J1",
+    "candidateUrls": [
+      "https://www.jleague.jp/sp/match/search/all/all/kawasakif/",
+      "https://www.frontale.co.jp/schedule/monthly.php"
+    ]
+  },
+  {
+    "team": "湘南ベルマーレ",
+    "sport": "soccer",
+    "league": "J1",
+    "candidateUrls": [
+      "https://www.jleague.jp/sp/match/search/all/all/shonan/",
+      "https://www.bellmare.co.jp/fixtures_2026"
+    ]
+  },
+  {
+    "team": "横浜FC",
+    "sport": "soccer",
+    "league": "不明(要確認)",
+    "candidateUrls": [
+      "https://yokohamafc.com/game/schedule/"
+    ]
+  },
+  {
+    "team": "横浜DeNAベイスターズ",
+    "sport": "baseball",
+    "league": "NPB",
+    "candidateUrls": [
+      "https://www.baystars.co.jp/game/",
+      "https://npb.jp/bis/teams/calendar_db_09.html"
+    ]
+  },
+  {
+    "team": "横浜ビー・コルセアーズ",
+    "sport": "basketball",
+    "league": "B1",
+    "candidateUrls": [
+      "https://b-corsairs.com/schedule/",
+      "https://www.bleague.jp/club_detail/?TeamID=694"
+    ]
+  },
+  {
+    "team": "川崎ブレイブサンダース",
+    "sport": "basketball",
+    "league": "B1",
+    "candidateUrls": [
+      "https://kawasaki-bravethunders.com/schedule/",
+      "https://www.bleague.jp/club_detail/?TeamID=727"
+    ]
+  },
+  {
+    "team": "横浜キヤノンイーグルス",
+    "sport": "rugby",
+    "league": "リーグワン",
+    "candidateUrls": [
+      "https://www.canon-eagles.jp/schedule/",
+      "https://league-one.jp/team/107"
+    ]
+  }
+]

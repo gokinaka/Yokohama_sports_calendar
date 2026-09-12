@@ -1,0 +1,11 @@
+{
+  "name": "yokohama-sports-calendar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "横浜近郊のプロスポーツチームの試合日程をまとめるカレンダーアプリ",
+  "scripts": {
+    "inspect-sources": "node scripts/inspect-sources.mjs"
+  },
+  "license": "MIT"
+}
