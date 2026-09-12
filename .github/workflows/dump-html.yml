@@ -1,0 +1,31 @@
+name: Dump HTML for parser development
+
+# パーサー実装のために対象ページのHTMLを整形して tmp-html/ にコミットする開発用ワークフロー。
+# 実装が済んだら tmp-html/ とこのワークフローは削除してよい。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Dump HTML
+        run: node scripts/dump-html.mjs
+      - name: Commit dumps
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f tmp-html/
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "chore: dump html for parser development"
+            git push
+          fi
