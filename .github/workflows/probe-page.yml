@@ -1,0 +1,22 @@
+name: Probe page structure
+
+# 特定のURLのHTML構造(埋め込みJSON・繰り返しclass・日付パターン)を
+# 調べるための調査用ワークフロー。スクレイパー実装前の下調べに使う。
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "調査対象のURL"
+        required: true
+        default: "https://www.f-marinos.com/matches/schedule"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run probe
+        run: node scripts/probe.mjs "${{ inputs.url }}"
