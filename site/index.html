@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>横浜近郊スポーツ観戦カレンダー</title>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    margin: 0;
+    padding: 16px;
+    background: #f7f7f8;
+    color: #1a1a1a;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin: 0 0 12px;
+  }
+  #calendar {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  #status {
+    max-width: 1000px;
+    margin: 0 auto 12px;
+    font-size: 0.85rem;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+<h1>横浜近郊スポーツ観戦カレンダー(PoC: 横浜F・マリノスのみ)</h1>
+<div id="status">読み込み中...</div>
+<div id="calendar"></div>
+
+<script>
+  const SPORT_COLORS = {
+    soccer: "#1d7a3c",
+    baseball: "#0d5cab",
+    basketball: "#c9530f",
+    rugby: "#7a1d5c",
+  };
+
+  function toFullCalendarEvent(match) {
+    const start = match.time ? `${match.date}T${match.time}:00` : match.date;
+    const homeAwayLabel =
+      match.homeAway === "home" ? "(H)" : match.homeAway === "away" ? "(A)" : "";
+    return {
+      title: `${match.team} vs ${match.opponent ?? "?"} ${homeAwayLabel}`.trim(),
+      start,
+      allDay: !match.time,
+      color: SPORT_COLORS[match.sport] ?? "#555",
+      extendedProps: {
+        venue: match.venue,
+        competition: match.competition,
+        sourceUrl: match.sourceUrl,
+      },
+    };
+  }
+
+  async function loadEvents() {
+    const res = await fetch("../data/marinos.json");
+    if (!res.ok) throw new Error(`データ取得失敗: HTTP ${res.status}`);
+    const matches = await res.json();
+    return matches.map(toFullCalendarEvent);
+  }
+
+  document.addEventListener("DOMContentLoaded", async () => {
+    const statusEl = document.getElementById("status");
+    const calendarEl = document.getElementById("calendar");
+    try {
+      const events = await loadEvents();
+      statusEl.textContent = `${events.length}件の試合を表示しています。`;
+      const calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: "dayGridMonth",
+        locale: "ja",
+        height: "auto",
+        events,
+        eventDidMount(info) {
+          const { venue, competition } = info.event.extendedProps;
+          const title = [competition, venue].filter(Boolean).join(" @ ");
+          if (title) info.el.title = title;
+        },
+      });
+      calendar.render();
+    } catch (err) {
+      statusEl.textContent = `エラー: ${err.message}`;
+      console.error(err);
+    }
+  });
+</script>
+</body>
+</html>
