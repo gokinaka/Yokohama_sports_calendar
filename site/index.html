@@ -4,99 +4,168 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>横浜近郊スポーツ観戦カレンダー</title>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css"
-/>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
 <style>
+  :root {
+    --bg: #eef1f7;
+    --surface: #ffffff;
+    --surface-2: #f5f7fb;
+    --text: #131c30;
+    --muted: #5c6779;
+    --border: #dbe0eb;
+    --accent: #0c2d6b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0f1c;
+      --surface: #121a2c;
+      --surface-2: #161f35;
+      --text: #e8ecf6;
+      --muted: #92a0ba;
+      --border: #263252;
+      --accent: #7ea1ff;
+    }
+  }
+  * { box-sizing: border-box; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, system-ui, sans-serif;
+    padding-inline: 16px;
+    padding-block: 24px;
     margin: 0;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+  h1 { font-size: 1.25rem; margin: 0; }
+  .meta { font-size: 0.8rem; color: var(--muted); margin: 0; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+  .filters button {
+    font: inherit;
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+  }
+  .filters button[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
     padding: 16px;
-    background: #f7f7f8;
-    color: #1a1a1a;
   }
-  h1 {
-    font-size: 1.2rem;
-    margin: 0 0 12px;
-  }
-  #calendar {
-    max-width: 1000px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  }
-  #status {
-    max-width: 1000px;
-    margin: 0 auto 12px;
-    font-size: 0.85rem;
-    color: #666;
-  }
+  .month { font-weight: bold; margin: 0 0 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+  th { text-align: left; color: var(--muted); font-weight: normal; border-bottom: 1px solid var(--border); padding: 6px 8px; white-space: nowrap; }
+  td { padding: 7px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .date { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .tag { display: inline-block; font-size: 0.68rem; border-radius: 4px; padding: 1px 6px; color: #fff; white-space: nowrap; }
+  .table-scroll { overflow-x: auto; }
+  table { min-width: 560px; }
 </style>
 </head>
 <body>
-<h1>横浜近郊スポーツ観戦カレンダー(PoC: 横浜F・マリノスのみ)</h1>
-<div id="status">読み込み中...</div>
-<div id="calendar"></div>
+<div class="wrap">
+  <h1>横浜近郊スポーツ観戦カレンダー</h1>
+  <p class="meta" id="status">読み込み中...</p>
+  <div class="filters" id="filters"></div>
+  <div id="list"></div>
+</div>
 
 <script>
   const SPORT_COLORS = {
     soccer: "#1d7a3c",
     baseball: "#0d5cab",
     basketball: "#c9530f",
-    rugby: "#7a1d5c",
+    volleyball: "#7a4bc4",
+    tabletennis: "#0f8f8f",
+    handball: "#a3283f",
+    rugby: "#5a3b1f",
+  };
+  const SPORT_LABELS = {
+    soccer: "サッカー",
+    baseball: "野球",
+    basketball: "バスケ",
+    volleyball: "バレー",
+    tabletennis: "卓球",
+    handball: "ハンドボール",
+    rugby: "ラグビー",
   };
 
-  function toFullCalendarEvent(match) {
-    const start = match.time ? `${match.date}T${match.time}:00` : match.date;
-    const homeAwayLabel =
-      match.homeAway === "home" ? "(H)" : match.homeAway === "away" ? "(A)" : "";
-    return {
-      title: `${match.team} vs ${match.opponent ?? "?"} ${homeAwayLabel}`.trim(),
-      start,
-      allDay: !match.time,
-      color: SPORT_COLORS[match.sport] ?? "#555",
-      extendedProps: {
-        venue: match.venue,
-        competition: match.competition,
-        sourceUrl: match.sourceUrl,
-      },
-    };
-  }
+  let events = [];
+  let activeSports = new Set();
 
-  async function loadEvents() {
-    const res = await fetch("../data/marinos.json");
-    if (!res.ok) throw new Error(`データ取得失敗: HTTP ${res.status}`);
-    const matches = await res.json();
-    return matches.map(toFullCalendarEvent);
-  }
-
-  document.addEventListener("DOMContentLoaded", async () => {
-    const statusEl = document.getElementById("status");
-    const calendarEl = document.getElementById("calendar");
-    try {
-      const events = await loadEvents();
-      statusEl.textContent = `${events.length}件の試合を表示しています。`;
-      const calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: "dayGridMonth",
-        locale: "ja",
-        height: "auto",
-        events,
-        eventDidMount(info) {
-          const { venue, competition } = info.event.extendedProps;
-          const title = [competition, venue].filter(Boolean).join(" @ ");
-          if (title) info.el.title = title;
-        },
-      });
-      calendar.render();
-    } catch (err) {
-      statusEl.textContent = `エラー: ${err.message}`;
-      console.error(err);
+  function render() {
+    const list = document.getElementById("list");
+    const shown = events.filter((e) => activeSports.size === 0 || activeSports.has(e.sport));
+    const byMonth = new Map();
+    for (const e of shown) {
+      const key = e.date.slice(0, 7);
+      if (!byMonth.has(key)) byMonth.set(key, []);
+      byMonth.get(key).push(e);
     }
-  });
+    list.innerHTML = "";
+    for (const [month, items] of byMonth) {
+      const [y, m] = month.split("-");
+      const panel = document.createElement("div");
+      panel.className = "panel";
+      const rows = items
+        .map((e) => {
+          const [, mo, da] = e.date.split("-");
+          const ha = e.homeAway === "home" ? "H" : e.homeAway === "away" ? "A" : "";
+          return `<tr>
+            <td class="date">${Number(mo)}/${Number(da)}${e.weekday ? `(${e.weekday})` : ""}</td>
+            <td>${e.time ?? "未定"}</td>
+            <td><span class="tag" style="background:${SPORT_COLORS[e.sport] ?? "#555"}">${SPORT_LABELS[e.sport] ?? e.sport}</span></td>
+            <td>${e.team}${ha ? ` <small>(${ha})</small>` : ""}</td>
+            <td>${e.opponent ?? "-"}</td>
+            <td>${e.venue ?? "-"}</td>
+          </tr>`;
+        })
+        .join("");
+      panel.innerHTML = `<p class="month">${y}年${Number(m)}月(${items.length}試合)</p>
+        <div class="table-scroll"><table>
+          <thead><tr><th>日付</th><th>開始</th><th>競技</th><th>チーム</th><th>対戦相手</th><th>会場</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>`;
+      list.appendChild(panel);
+    }
+    document.getElementById("status").textContent =
+      `${shown.length}件の試合を表示中(全${events.length}件)`;
+  }
+
+  function buildFilters() {
+    const sports = [...new Set(events.map((e) => e.sport))];
+    const box = document.getElementById("filters");
+    for (const sport of sports) {
+      const btn = document.createElement("button");
+      btn.id = `filter-${sport}`;
+      btn.textContent = SPORT_LABELS[sport] ?? sport;
+      btn.setAttribute("aria-pressed", "false");
+      btn.addEventListener("click", () => {
+        if (activeSports.has(sport)) activeSports.delete(sport);
+        else activeSports.add(sport);
+        btn.setAttribute("aria-pressed", String(activeSports.has(sport)));
+        render();
+      });
+      box.appendChild(btn);
+    }
+  }
+
+  fetch("../data/events.json")
+    .then((res) => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
+    .then((data) => {
+      events = data;
+      buildFilters();
+      render();
+    })
+    .catch((err) => {
+      document.getElementById("status").textContent = `データを読み込めませんでした: ${err.message}`;
+    });
 </script>
 </body>
 </html>
