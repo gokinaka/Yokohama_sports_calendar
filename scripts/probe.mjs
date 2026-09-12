@@ -2,15 +2,30 @@
 // 埋め込みJSON(Next.js/Nuxtの初期データなど)、日付らしきパターンの
 // 出現箇所を出力する。実際のスクレイパーを設計する前の構造調査用。
 //
-// 使い方: node scripts/probe.mjs <URL>
+// 使い方: node scripts/probe.mjs <URL> [追加で確認したい文字列(class名など)...]
 
 const USER_AGENT =
   "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/yokohama_sports_calendar)";
 
 const url = process.argv[2];
+const extraAnchors = process.argv.slice(3);
 if (!url) {
-  console.error("使い方: node scripts/probe.mjs <URL>");
+  console.error("使い方: node scripts/probe.mjs <URL> [追加で確認したい文字列...]");
   process.exit(1);
+}
+
+function findAnchorContexts(html, anchor, maxMatches = 2, before = 300, after = 1200) {
+  const contexts = [];
+  let fromIndex = 0;
+  while (contexts.length < maxMatches) {
+    const idx = html.indexOf(anchor, fromIndex);
+    if (idx === -1) break;
+    const start = Math.max(0, idx - before);
+    const end = Math.min(html.length, idx + after);
+    contexts.push(html.slice(start, end));
+    fromIndex = idx + anchor.length;
+  }
+  return contexts;
 }
 
 function findEmbeddedJsonScripts(html) {
@@ -75,9 +90,17 @@ async function main() {
     console.log(`- "${cls}" ×${count}`);
   }
 
-  const dateContexts = findDateLikeContexts(html);
-  console.log(`\n=== 日付らしきパターンの出現箇所(前後200-300文字): ${dateContexts.length}件 ===`);
-  dateContexts.forEach((ctx, i) => console.log(`--- [${i}] ---\n${ctx}\n`));
+  if (extraAnchors.length === 0) {
+    const dateContexts = findDateLikeContexts(html);
+    console.log(`\n=== 日付らしきパターンの出現箇所(前後200-300文字): ${dateContexts.length}件 ===`);
+    dateContexts.forEach((ctx, i) => console.log(`--- [${i}] ---\n${ctx}\n`));
+  } else {
+    for (const anchor of extraAnchors) {
+      const contexts = findAnchorContexts(html, anchor);
+      console.log(`\n=== "${anchor}" の出現箇所(前後を広めに): ${contexts.length}件 ===`);
+      contexts.forEach((ctx, i) => console.log(`--- [${i}] ---\n${ctx}\n`));
+    }
+  }
 }
 
 main().catch((err) => {

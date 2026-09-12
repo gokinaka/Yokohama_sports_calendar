@@ -9,6 +9,10 @@ on:
         description: "調査対象のURL"
         required: true
         default: "https://www.f-marinos.com/matches/schedule"
+      anchors:
+        description: "詳しく見たいclass名などの文字列(スペース区切り、省略可)"
+        required: false
+        default: ""
 
 jobs:
   probe:
@@ -19,4 +23,4 @@ jobs:
         with:
           node-version: "20"
       - name: Run probe
-        run: node scripts/probe.mjs "${{ inputs.url }}"
+        run: node scripts/probe.mjs "${{ inputs.url }}" ${{ inputs.anchors }}
