@@ -7,7 +7,8 @@
 //
 // 使い方: node scripts/fetch/marinos.mjs [出力先パス(省略時は標準出力)]
 
-import { writeFile } from "node:fs/promises";
+import { writeFile, mkdir } from "node:fs/promises";
+import { dirname } from "node:path";
 
 const SOURCE_URL = "https://www.f-marinos.com/matches/schedule";
 const TEAM = "横浜F・マリノス";
@@ -92,6 +93,7 @@ async function main() {
   const json = JSON.stringify(events, null, 2);
   const outPath = process.argv[2];
   if (outPath) {
+    await mkdir(dirname(outPath), { recursive: true });
     await writeFile(outPath, json + "\n", "utf-8");
     console.log(`${events.length}件の試合情報を ${outPath} に書き出しました。`);
   } else {
