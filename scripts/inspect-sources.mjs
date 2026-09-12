@@ -13,11 +13,15 @@ import { readFile } from "node:fs/promises";
 const USER_AGENT =
   "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/yokohama_sports_calendar)";
 const REQUEST_INTERVAL_MS = 2000;
+const REQUEST_TIMEOUT_MS = 15000;
 
 async function fetchRobotsRules(origin) {
   const url = new URL("/robots.txt", origin).toString();
   try {
-    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+    const res = await fetch(url, {
+      headers: { "User-Agent": USER_AGENT },
+      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+    });
     if (!res.ok) return { exists: false, disallowedForAll: [] };
     const text = await res.text();
     return { exists: true, disallowedForAll: parseDisallowForStar(text) };
@@ -105,7 +109,10 @@ async function inspectUrl(url) {
   }
 
   try {
-    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+    const res = await fetch(url, {
+      headers: { "User-Agent": USER_AGENT },
+      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+    });
     if (!res.ok) {
       console.log(`  ${url}\n    × HTTP ${res.status}`);
       return;
