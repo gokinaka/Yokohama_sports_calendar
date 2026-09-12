@@ -3,41 +3,45 @@
     "team": "横浜F・マリノス",
     "sport": "soccer",
     "league": "J1",
-    "candidateUrls": [
-      "https://www.jleague.jp/sp/match/search/all/all/yokohamafm/",
-      "https://www.f-marinos.com/matches/schedule"
-    ]
+    "city": "横浜市",
+    "status": "実装済み",
+    "candidateUrls": ["https://www.f-marinos.com/matches/schedule"]
   },
   {
     "team": "川崎フロンターレ",
     "sport": "soccer",
     "league": "J1",
+    "city": "川崎市",
     "candidateUrls": [
-      "https://www.jleague.jp/sp/match/search/all/all/kawasakif/",
-      "https://www.frontale.co.jp/schedule/monthly.php"
+      "https://www.frontale.co.jp/schedule/monthly.php",
+      "https://www.frontale.co.jp/schedule/"
     ]
   },
   {
     "team": "湘南ベルマーレ",
     "sport": "soccer",
     "league": "J1",
+    "city": "平塚市",
     "candidateUrls": [
-      "https://www.jleague.jp/sp/match/search/all/all/shonan/",
+      "https://www.bellmare.co.jp/fixtures_2026_27",
       "https://www.bellmare.co.jp/fixtures_2026"
     ]
   },
   {
     "team": "横浜FC",
     "sport": "soccer",
-    "league": "不明(要確認)",
+    "league": "J1/J2(要確認)",
+    "city": "横浜市",
     "candidateUrls": [
-      "https://yokohamafc.com/game/schedule/"
+      "https://yokohamafc.com/game/schedule/",
+      "https://www.jleague.jp/club/yokohamafc/day/"
     ]
   },
   {
     "team": "横浜DeNAベイスターズ",
     "sport": "baseball",
-    "league": "NPB",
+    "league": "NPB セ・リーグ",
+    "city": "横浜市",
     "candidateUrls": [
       "https://www.baystars.co.jp/game/",
       "https://npb.jp/bis/teams/calendar_db_09.html"
@@ -46,28 +50,82 @@
   {
     "team": "横浜ビー・コルセアーズ",
     "sport": "basketball",
-    "league": "B1",
+    "league": "B.LEAGUE(男子)",
+    "city": "横浜市",
     "candidateUrls": [
-      "https://b-corsairs.com/schedule/",
-      "https://www.bleague.jp/club_detail/?TeamID=694"
+      "https://b-corsairs.com/schedule/list/",
+      "https://b-corsairs.com/schedule/"
     ]
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B1",
+    "league": "B.LEAGUE(男子)",
+    "city": "川崎市",
     "candidateUrls": [
-      "https://kawasaki-bravethunders.com/schedule/",
-      "https://www.bleague.jp/club_detail/?TeamID=727"
+      "https://kawasaki-bravethunders.com/schedule/list/",
+      "https://kawasaki-bravethunders.com/schedule/"
+    ]
+  },
+  {
+    "team": "富士通レッドウェーブ",
+    "sport": "basketball",
+    "league": "Wリーグ(女子)",
+    "city": "川崎市",
+    "candidateUrls": [
+      "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
+      "https://www.wjbl.org/team/schedule_result_html/?bid=30"
+    ]
+  },
+  {
+    "team": "NECレッドロケッツ川崎",
+    "sport": "volleyball",
+    "league": "SVリーグ(女子)",
+    "city": "川崎市",
+    "candidateUrls": [
+      "https://red.necrockets.net/match/schedule/",
+      "https://www.svleague.jp/match/"
+    ]
+  },
+  {
+    "team": "木下アビエル神奈川",
+    "sport": "tabletennis",
+    "league": "ノジマTリーグ(女子)",
+    "city": "神奈川県",
+    "candidateUrls": [
+      "https://kinoshita-abyell.com/schedule/",
+      "https://tleague.jp/schedule/"
+    ]
+  },
+  {
+    "team": "アースフレンズBM東京・神奈川",
+    "sport": "handball",
+    "league": "リーグH(男子)",
+    "city": "東京・神奈川",
+    "candidateUrls": [
+      "https://leagueh.jp/team/earthfriends/",
+      "https://leagueh.jp/schedule/",
+      "https://earthfriends-bm.jp/"
     ]
   },
   {
     "team": "横浜キヤノンイーグルス",
     "sport": "rugby",
     "league": "リーグワン",
+    "city": "横浜市",
     "candidateUrls": [
       "https://www.canon-eagles.jp/schedule/",
       "https://league-one.jp/team/107"
+    ]
+  },
+  {
+    "team": "神奈川県ドッジボール協会(大会情報)",
+    "sport": "dodgeball",
+    "league": "プロリーグなし・協会主催大会",
+    "city": "神奈川県",
+    "candidateUrls": [
+      "https://kdba.jp/taikai/2026/pre2026.html",
+      "https://kdba.jp/"
     ]
   }
 ]

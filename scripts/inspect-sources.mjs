@@ -1,6 +1,11 @@
-// 各データソース候補ページの robots.txt を確認し、許可されている場合のみ
-// ページ内容の一部(構造把握用のスニペットと JSON-LD / .ics リンク)をログに出力する。
-// 本番のスクレイパーではなく、実データの構造を確認するための調査用スクリプト。
+// 各データソース候補ページの robots.txt を確認し、許可されている場合のみ取得して
+// 「スクレイピングで試合日程が取れそうか」を判定する。
+//
+// 判定の考え方:
+//   - サーバーサイドでHTMLに日付が描画されていれば、fetchだけで取得できる可能性が高い
+//   - Next.js/Nuxtなどのクライアントサイド描画だと、初期HTMLに試合データが無く取得できない
+//
+// 実際のパーサーではなく、実装対象を絞り込むための調査用スクリプト。
 
 import { setTimeout as sleep } from "node:timers/promises";
 import { readFile } from "node:fs/promises";
@@ -45,28 +50,44 @@ function isPathDisallowed(pathname, disallowedPrefixes) {
   return disallowedPrefixes.some((prefix) => pathname.startsWith(prefix));
 }
 
-function extractJsonLdBlocks(html) {
-  const blocks = [];
-  const re = /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
-  let m;
-  while ((m = re.exec(html))) {
-    blocks.push(m[1].trim());
+function detectFramework(html) {
+  if (/<script[^>]+id=["']__NEXT_DATA__["']/.test(html) || /\/_next\/static\//.test(html)) {
+    return "Next.js";
   }
-  return blocks;
+  if (/window\.__NUXT__/.test(html) || /\/_nuxt\//.test(html)) return "Nuxt";
+  return "通常のHTML";
 }
 
-function extractIcsLinks(html, base) {
-  const links = new Set();
-  const re = /href=["']([^"']+\.ics[^"']*)["']/gi;
-  let m;
-  while ((m = re.exec(html))) {
-    try {
-      links.add(new URL(m[1], base).toString());
-    } catch {
-      links.add(m[1]);
-    }
+// 本文(scriptとstyleを除いたHTML)に現れる日付らしきパターンの数を数える。
+// 試合一覧がサーバー側で描画されていれば、ある程度まとまった数になる。
+function countDatePatterns(html) {
+  const body = html
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "");
+  const patterns = {
+    "M月D日": /\d{1,2}月\d{1,2}日/g,
+    "M/D": /\b\d{1,2}\/\d{1,2}\b/g,
+    "M.D": />\s*\d{1,2}\.\d{1,2}\s*</g,
+    "YYYY-MM-DD": /\d{4}-\d{2}-\d{2}/g,
+    "曜日カッコ": /[（(][月火水木金土日][）)]/g,
+    "時刻": /\b\d{1,2}:\d{2}\b/g,
+  };
+  const counts = {};
+  for (const [name, re] of Object.entries(patterns)) {
+    counts[name] = (body.match(re) || []).length;
   }
-  return [...links];
+  return counts;
+}
+
+function verdict({ framework, counts }) {
+  const dateish =
+    counts["M月D日"] + counts["M/D"] + counts["M.D"] + counts["YYYY-MM-DD"] + counts["曜日カッコ"];
+  if (framework !== "通常のHTML" && dateish < 5) {
+    return { mark: "×", reason: `${framework}のクライアント描画で初期HTMLに日程が無い` };
+  }
+  if (dateish >= 15) return { mark: "◎", reason: `日付${dateish}件を初期HTMLから検出` };
+  if (dateish >= 5) return { mark: "○", reason: `日付${dateish}件を検出(要精査)` };
+  return { mark: "△", reason: `日付${dateish}件のみ。別ページの可能性` };
 }
 
 async function inspectUrl(url) {
@@ -74,39 +95,37 @@ async function inspectUrl(url) {
   const { exists: robotsExists, disallowedForAll, error: robotsError } =
     await fetchRobotsRules(u.origin);
 
-  console.log(`\n### ${url}`);
   if (robotsError) {
-    console.log(`robots.txt: 取得失敗 (${robotsError}) — 判断できないため今回はスキップします`);
+    console.log(`  ${url}\n    robots.txt取得失敗のためスキップ (${robotsError})`);
     return;
   }
-  console.log(
-    `robots.txt: ${robotsExists ? "あり" : "なし"} / User-agent:* のDisallow件数=${disallowedForAll.length}`
-  );
-
   if (robotsExists && isPathDisallowed(u.pathname, disallowedForAll)) {
-    console.log(`→ robots.txt により ${u.pathname} は Disallow 対象のためアクセスしません。`);
+    console.log(`  ${url}\n    × robots.txtで ${u.pathname} がDisallow。アクセスしません`);
     return;
   }
 
   try {
     const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
-    console.log(`HTTP ${res.status} / Content-Type: ${res.headers.get("content-type")}`);
-    if (!res.ok) return;
+    if (!res.ok) {
+      console.log(`  ${url}\n    × HTTP ${res.status}`);
+      return;
+    }
     const html = await res.text();
-    console.log(`本文サイズ: ${html.length} 文字`);
-
-    const jsonLd = extractJsonLdBlocks(html);
-    console.log(`JSON-LD ブロック数: ${jsonLd.length}`);
-    jsonLd.slice(0, 2).forEach((block, i) => {
-      console.log(`--- JSON-LD[${i}] (先頭800文字) ---\n${block.slice(0, 800)}`);
-    });
-
-    const icsLinks = extractIcsLinks(html, url);
-    console.log(`.ics リンク: ${icsLinks.length > 0 ? icsLinks.join(", ") : "見つかりませんでした"}`);
-
-    console.log(`--- 本文スニペット(先頭1500文字) ---\n${html.slice(0, 1500)}`);
+    const framework = detectFramework(html);
+    const counts = countDatePatterns(html);
+    const { mark, reason } = verdict({ framework, counts });
+    const countSummary = Object.entries(counts)
+      .filter(([, n]) => n > 0)
+      .map(([name, n]) => `${name}:${n}`)
+      .join(" ");
+    console.log(`  ${url}`);
+    console.log(`    ${mark} ${reason}`);
+    console.log(
+      `    framework=${framework} robots=${robotsExists ? "あり(対象パスは許可)" : "なし"} size=${html.length}`
+    );
+    console.log(`    検出パターン: ${countSummary || "なし"}`);
   } catch (err) {
-    console.log(`取得エラー: ${err}`);
+    console.log(`  ${url}\n    × 取得エラー: ${err}`);
   }
 }
 
@@ -115,7 +134,7 @@ async function main() {
   const sources = JSON.parse(raw);
 
   for (const source of sources) {
-    console.log(`\n==================== ${source.team} (${source.league}) ====================`);
+    console.log(`\n■ ${source.team} [${source.sport}] ${source.league} (${source.city ?? "-"})`);
     for (const url of source.candidateUrls) {
       await inspectUrl(url);
       await sleep(REQUEST_INTERVAL_MS);
