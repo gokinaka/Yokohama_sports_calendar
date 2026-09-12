@@ -1,0 +1,22 @@
+name: Run a fetch script (manual)
+
+# scripts/fetch/ 配下の取得スクリプトを手動実行し、結果を標準出力で確認するための
+# 調査・デバッグ用ワークフロー。
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "実行するスクリプトのパス"
+        required: true
+        default: "scripts/fetch/marinos.mjs"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run script
+        run: node "${{ inputs.script }}"
