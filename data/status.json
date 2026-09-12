@@ -1,0 +1,77 @@
+{
+  "builtAt": "2026-09-12T20:56:43.359Z",
+  "teams": [
+    {
+      "team": "横浜DeNAベイスターズ",
+      "sport": "baseball",
+      "league": "NPB",
+      "total": 26,
+      "upcoming": 17,
+      "latestDate": "2026-10-04",
+      "fetchedAt": "2026-09-12T20:53:09.712Z"
+    },
+    {
+      "team": "湘南ベルマーレ",
+      "sport": "soccer",
+      "league": "J2",
+      "total": 40,
+      "upcoming": 32,
+      "latestDate": "2027-05-23",
+      "fetchedAt": "2026-09-12T20:53:08.025Z"
+    },
+    {
+      "team": "横浜キヤノンイーグルス",
+      "sport": "rugby",
+      "league": "リーグワン",
+      "total": 18,
+      "upcoming": 0,
+      "latestDate": "2026-05-09",
+      "fetchedAt": "2026-09-12T20:53:20.156Z"
+    },
+    {
+      "team": "アースフレンズBM東京・神奈川",
+      "sport": "handball",
+      "league": "リーグH",
+      "total": 18,
+      "upcoming": 18,
+      "latestDate": "2027-04-24",
+      "fetchedAt": "2026-09-12T20:53:19.412Z"
+    },
+    {
+      "team": "木下アビエル神奈川",
+      "sport": "tabletennis",
+      "league": "ノジマTリーグ",
+      "total": 25,
+      "upcoming": 19,
+      "latestDate": "2027-03-07",
+      "fetchedAt": "2026-09-12T20:53:17.992Z"
+    },
+    {
+      "team": "横浜F・マリノス",
+      "sport": "soccer",
+      "league": "J1",
+      "total": 33,
+      "upcoming": 33,
+      "latestDate": "2027-06-06",
+      "fetchedAt": "2026-09-12T20:53:06.910Z"
+    },
+    {
+      "team": "NECレッドロケッツ川崎",
+      "sport": "volleyball",
+      "league": "SVリーグ",
+      "total": 41,
+      "upcoming": 41,
+      "latestDate": "2027-03-28",
+      "fetchedAt": "2026-09-12T20:53:16.881Z"
+    },
+    {
+      "team": "横浜FC",
+      "sport": "soccer",
+      "league": "J2",
+      "total": 2,
+      "upcoming": 2,
+      "latestDate": "2026-10-10",
+      "fetchedAt": "2026-09-12T20:53:07.030Z"
+    }
+  ]
+}

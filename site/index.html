@@ -71,6 +71,7 @@
   <p class="meta" id="status">読み込み中...</p>
   <div class="filters" id="filters"></div>
   <div id="list"></div>
+  <div class="panel" id="coverage"></div>
 </div>
 
 <script>
@@ -153,15 +154,34 @@
     }
   }
 
-  fetch("../data/events.json")
-    .then((res) => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
-    })
-    .then((data) => {
+  function renderCoverage(status) {
+    const rows = status.teams
+      .map((t) => {
+        const note = t.upcoming === 0 ? `<span style="color:var(--muted)">今シーズンの日程が未発表</span>` : `${t.upcoming}試合`;
+        return `<tr><td>${SPORT_LABELS[t.sport] ?? t.sport}</td><td>${t.team}</td><td>${t.league}</td><td>${note}</td></tr>`;
+      })
+      .join("");
+    document.getElementById("coverage").innerHTML = `<p class="month">対応チーム(${status.teams.length}チーム)</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>競技</th><th>チーム</th><th>リーグ</th><th>今後の試合</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>`;
+  }
+
+  Promise.all([
+    fetch("../data/events.json").then((r) => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    }),
+    fetch("../data/status.json")
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null),
+  ])
+    .then(([data, status]) => {
       events = data;
       buildFilters();
       render();
+      if (status) renderCoverage(status);
     })
     .catch((err) => {
       document.getElementById("status").textContent = `データを読み込めませんでした: ${err.message}`;
