@@ -1,7 +1,7 @@
 name: Update schedule data
 
 # 各チームの試合日程を取得し、data/ 配下のJSONを更新してコミットする。
-# 現時点では横浜F・マリノスのみ対応(PoC)。他チーム対応後はstepを追加する。
+# 1チームの取得が失敗しても他のチームは更新できるよう、各stepを continue-on-error にしている。
 on:
   workflow_dispatch:
   schedule:
@@ -18,13 +18,40 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Fetch 横浜F・マリノス
+
+      - name: 横浜F・マリノス (J1)
+        continue-on-error: true
         run: node scripts/fetch/marinos.mjs data/marinos.json
+      - name: 横浜FC (J2)
+        continue-on-error: true
+        run: node scripts/fetch/yokohamafc.mjs data/yokohamafc.json
+      - name: 湘南ベルマーレ (J2)
+        continue-on-error: true
+        run: node scripts/fetch/bellmare.mjs data/bellmare.json
+      - name: 横浜DeNAベイスターズ (NPB)
+        continue-on-error: true
+        run: node scripts/fetch/baystars.mjs data/baystars.json
+      - name: NECレッドロケッツ川崎 (SVリーグ)
+        continue-on-error: true
+        run: node scripts/fetch/necrockets.mjs data/necrockets.json
+      - name: 木下アビエル神奈川 (Tリーグ)
+        continue-on-error: true
+        run: node scripts/fetch/kinoshita-abyell.mjs data/kinoshita-abyell.json
+      - name: アースフレンズBM東京・神奈川 (リーグH)
+        continue-on-error: true
+        run: node scripts/fetch/earthfriends.mjs data/earthfriends.json
+      - name: 横浜キヤノンイーグルス (リーグワン)
+        continue-on-error: true
+        run: node scripts/fetch/canon-eagles.mjs data/canon-eagles.json
+
+      - name: カレンダー用データを統合
+        run: node scripts/build-events.mjs
+
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/marinos.json
+          git add data/
           if git diff --cached --quiet; then
             echo "変更なし"
           else
