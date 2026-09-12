@@ -5,7 +5,9 @@
     "league": "J1",
     "city": "横浜市",
     "status": "実装済み",
-    "candidateUrls": ["https://www.f-marinos.com/matches/schedule"]
+    "candidateUrls": [
+      "https://www.f-marinos.com/matches/schedule"
+    ]
   },
   {
     "team": "川崎フロンターレ",
@@ -14,7 +16,8 @@
     "city": "川崎市",
     "candidateUrls": [
       "https://www.frontale.co.jp/schedule/monthly.php",
-      "https://www.frontale.co.jp/schedule/"
+      "https://www.frontale.co.jp/schedule/",
+      "https://www.frontale.co.jp/schedule/season.php"
     ]
   },
   {
@@ -44,7 +47,9 @@
     "city": "横浜市",
     "candidateUrls": [
       "https://www.baystars.co.jp/game/",
-      "https://npb.jp/bis/teams/calendar_db_09.html"
+      "https://npb.jp/bis/teams/calendar_db_09.html",
+      "https://sp.baystars.co.jp/game/schedule/2026/9",
+      "https://npb.jp/games/2026/schedule_09_detail.html"
     ]
   },
   {
@@ -54,7 +59,9 @@
     "city": "横浜市",
     "candidateUrls": [
       "https://b-corsairs.com/schedule/list/",
-      "https://b-corsairs.com/schedule/"
+      "https://b-corsairs.com/schedule/",
+      "https://b-corsairs.com/schedule/calendar/",
+      "https://www.bleague.jp/schedule/"
     ]
   },
   {
@@ -64,7 +71,9 @@
     "city": "川崎市",
     "candidateUrls": [
       "https://kawasaki-bravethunders.com/schedule/list/",
-      "https://kawasaki-bravethunders.com/schedule/"
+      "https://kawasaki-bravethunders.com/schedule/",
+      "https://kawasaki-bravethunders.com/schedule/calendar/",
+      "https://kawasaki-bravethunders.com/schedule/eventcalendar.html"
     ]
   },
   {
@@ -74,7 +83,9 @@
     "city": "川崎市",
     "candidateUrls": [
       "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-      "https://www.wjbl.org/team/schedule_result_html/?bid=30"
+      "https://www.wjbl.org/team/schedule_result_html/?bid=30",
+      "https://www.wjbl.org/",
+      "https://sports.jp.fujitsu.com/redwave/pages/schedule"
     ]
   },
   {
@@ -94,7 +105,8 @@
     "city": "神奈川県",
     "candidateUrls": [
       "https://kinoshita-abyell.com/schedule/",
-      "https://tleague.jp/schedule/"
+      "https://tleague.jp/schedule/",
+      "https://tleague.jp/schedule/?team=8"
     ]
   },
   {
@@ -125,7 +137,9 @@
     "city": "神奈川県",
     "candidateUrls": [
       "https://kdba.jp/taikai/2026/pre2026.html",
-      "https://kdba.jp/"
+      "https://kdba.jp/",
+      "http://kdba.jp/",
+      "https://kdba.jp/taikai.html"
     ]
   }
 ]
