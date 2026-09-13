@@ -50,6 +50,7 @@
   }
   .filters button[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
   #regionFilters button { font-weight: bold; }
+  .filters button:disabled { opacity: 0.45; cursor: not-allowed; }
   .panel {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -166,14 +167,26 @@
     }
   }
 
-  function buildFilters() {
-    const sports = [...new Set(events.map((e) => e.sport))];
+  function buildFilters(status) {
+    // 対応している競技はすべて出す。今後の試合が無い競技も、
+    // 対応していないのか日程未発表なのかが分かるように残す。
+    const supported = status ? status.teams.map((t) => t.sport) : [];
+    const sports = [...new Set([...supported, ...events.map((e) => e.sport)])];
+    const count = (sport) => events.filter((e) => e.sport === sport).length;
+    sports.sort((a, b) => count(b) - count(a));
     const box = document.getElementById("filters");
     for (const sport of sports) {
+      const n = count(sport);
       const btn = document.createElement("button");
       btn.id = `filter-${sport}`;
-      btn.textContent = SPORT_LABELS[sport] ?? sport;
+      btn.textContent = `${SPORT_LABELS[sport] ?? sport} (${n})`;
       btn.setAttribute("aria-pressed", "false");
+      if (n === 0) {
+        btn.disabled = true;
+        btn.title = "今シーズンの日程が未発表のため、表示できる試合がありません";
+        box.appendChild(btn);
+        continue;
+      }
       btn.addEventListener("click", () => {
         if (activeSports.has(sport)) activeSports.delete(sport);
         else activeSports.add(sport);
@@ -210,7 +223,7 @@
     .then(([data, status]) => {
       events = data;
       buildRegionFilters();
-      buildFilters();
+      buildFilters(status);
       render();
       if (status) renderCoverage(status);
     })
