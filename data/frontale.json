@@ -11,7 +11,7 @@
     "venue": "味の素スタジアム",
     "opponent": "東京ヴェルディ",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -25,7 +25,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "京都サンガF.C.",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -39,21 +39,7 @@
     "venue": "エディオンピースウイング広島",
     "opponent": "サンフレッチェ広島",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第1節",
-    "date": "2026-08-23",
-    "weekday": "日",
-    "time": "17:00",
-    "homeAway": "away",
-    "venue": "ヤマハスタジアム（磐田）",
-    "opponent": "U-21 ジュビロ磐田",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -67,7 +53,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "栃木SC",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -81,7 +67,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "ジェフユナイテッド千葉",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -95,7 +81,7 @@
     "venue": "町田GIONスタジアム",
     "opponent": "FC町田ゼルビア",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -109,7 +95,7 @@
     "venue": "MUFGスタジアム",
     "opponent": "清水エスパルス",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -123,21 +109,7 @@
     "venue": "水戸信用金庫スタジアム",
     "opponent": "水戸ホーリーホック",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第2節",
-    "date": "2026-09-13",
-    "weekday": "日",
-    "time": "17:00",
-    "homeAway": "home",
-    "venue": "川崎フロンターレ麻生グラウンド",
-    "opponent": "U-21 清水エスパルス",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -151,21 +123,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "鹿島アントラーズ",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第3節",
-    "date": "2026-09-20",
-    "weekday": "日",
-    "time": "17:00",
-    "homeAway": "away",
-    "venue": "江東区夢の島競技場",
-    "opponent": "U-21 FC東京",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -179,21 +137,7 @@
     "venue": "えがお健康スタジアム",
     "opponent": "ロアッソ熊本",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第4節",
-    "date": "2026-10-03",
-    "weekday": "土",
-    "time": "15:00",
-    "homeAway": "home",
-    "venue": "Uvanceとどろきスタジアム by Fujitsu",
-    "opponent": "U-21 東京ヴェルディ",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -207,7 +151,7 @@
     "venue": "いちご宮崎新富サッカー場",
     "opponent": "テゲバジャーロ宮崎",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -221,7 +165,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "名古屋グランパス",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -235,21 +179,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第5節",
-    "date": "2026-10-17",
-    "weekday": "土",
-    "time": "11:00",
-    "homeAway": "home",
-    "venue": "川崎フロンターレ麻生グラウンド",
-    "opponent": "U-21 浦和レッズ",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -263,7 +193,7 @@
     "venue": "YANMAR HANASAKA STADIUM",
     "opponent": "セレッソ大阪",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -277,7 +207,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "ヴィッセル神戸",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -291,7 +221,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "ファジアーノ岡山",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -305,7 +235,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -319,21 +249,7 @@
     "venue": "日産スタジアム",
     "opponent": "横浜F・マリノス",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 交流戦ラウンド 第1節",
-    "date": "2026-11-01",
-    "weekday": "日",
-    "time": "19:30",
-    "homeAway": "away",
-    "venue": "PEACE STADIUM Connected by SoftBank",
-    "opponent": "U-21 V・ファーレン長崎",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -347,7 +263,7 @@
     "venue": "三協フロンテア柏スタジアム",
     "opponent": "柏レイソル",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -361,7 +277,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -375,7 +291,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -389,21 +305,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "アビスパ福岡",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 交流戦ラウンド 第2節",
-    "date": "2026-11-22",
-    "weekday": "日",
-    "time": "12:00",
-    "homeAway": "home",
-    "venue": "川崎フロンターレ麻生グラウンド",
-    "opponent": "U-21 ファジアーノ岡山",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -417,7 +319,7 @@
     "venue": "PEACE STADIUM Connected by SoftBank",
     "opponent": "V・ファーレン長崎",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -431,7 +333,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "ガンバ大阪",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -445,21 +347,7 @@
     "venue": "MUFGスタジアム",
     "opponent": "FC東京",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 交流戦ラウンド 第4節",
-    "date": "2026-12-06",
-    "weekday": "日",
-    "time": "14:00",
-    "homeAway": "away",
-    "venue": "CSアセット港サッカー場",
-    "opponent": "U-21 名古屋グランパス",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -473,21 +361,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 交流戦ラウンド 第5節",
-    "date": "2026-12-13",
-    "weekday": "日",
-    "time": "14:00",
-    "homeAway": "away",
-    "venue": "ガンバ大阪練習場",
-    "opponent": "U-21 ガンバ大阪",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -501,7 +375,7 @@
     "venue": "埼玉スタジアム２００２",
     "opponent": "浦和レッズ",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -515,21 +389,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "柏レイソル",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 交流戦ラウンド 第6節",
-    "date": "2026-12-20",
-    "weekday": "日",
-    "time": "12:00",
-    "homeAway": "home",
-    "venue": "川崎フロンターレ麻生グラウンド",
-    "opponent": "U-21 ヴィッセル神戸",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -543,7 +403,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -557,7 +417,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -571,7 +431,7 @@
     "venue": "MUFGスタジアム",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -585,21 +445,7 @@
     "venue": "ノエビアスタジアム神戸",
     "opponent": "ヴィッセル神戸",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第6節",
-    "date": "2027-02-13",
-    "weekday": null,
-    "time": null,
-    "homeAway": "away",
-    "venue": "未定",
-    "opponent": "U-21 清水エスパルス",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -613,21 +459,7 @@
     "venue": "フクダ電子アリーナ",
     "opponent": "ジェフユナイテッド千葉",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第7節",
-    "date": "2027-02-20",
-    "weekday": null,
-    "time": null,
-    "homeAway": "home",
-    "venue": "未定",
-    "opponent": "U-21 FC東京",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -641,21 +473,7 @@
     "venue": "MUFGスタジアム",
     "opponent": "FC町田ゼルビア",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第8節",
-    "date": "2027-02-27",
-    "weekday": null,
-    "time": null,
-    "homeAway": "away",
-    "venue": "未定",
-    "opponent": "U-21 東京ヴェルディ",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -669,21 +487,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "浦和レッズ",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第9節",
-    "date": "2027-03-06",
-    "weekday": null,
-    "time": null,
-    "homeAway": "away",
-    "venue": "未定",
-    "opponent": "U-21 浦和レッズ",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -697,7 +501,7 @@
     "venue": "IAIスタジアム日本平",
     "opponent": "清水エスパルス",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -711,21 +515,7 @@
     "venue": "サンガスタジアム by KYOCERA",
     "opponent": "京都サンガF.C.",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
-  },
-  {
-    "team": "川崎フロンターレ",
-    "sport": "soccer",
-    "league": "J1",
-    "competition": "2026/27 U-21 Jリーグ 東西リーグラウンド 第10節",
-    "date": "2027-03-13",
-    "weekday": null,
-    "time": null,
-    "homeAway": "home",
-    "venue": "未定",
-    "opponent": "U-21 ジュビロ磐田",
-    "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -739,7 +529,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "FC東京",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -753,7 +543,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -767,7 +557,7 @@
     "venue": "未定",
     "opponent": "対戦相手未定",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -781,7 +571,7 @@
     "venue": "パナソニック スタジアム 吹田",
     "opponent": "ガンバ大阪",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -795,7 +585,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "V・ファーレン長崎",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -809,7 +599,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "東京ヴェルディ",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -823,7 +613,7 @@
     "venue": "未定",
     "opponent": "名古屋グランパス",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -837,7 +627,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "水戸ホーリーホック",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -851,7 +641,7 @@
     "venue": "JFE晴れの国スタジアム",
     "opponent": "ファジアーノ岡山",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -865,7 +655,7 @@
     "venue": "メルカリスタジアム",
     "opponent": "鹿島アントラーズ",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -879,7 +669,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "横浜F・マリノス",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -893,7 +683,7 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "セレッソ大阪",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -907,7 +697,7 @@
     "venue": "ベスト電器スタジアム",
     "opponent": "アビスパ福岡",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   },
   {
     "team": "川崎フロンターレ",
@@ -921,6 +711,6 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "サンフレッチェ広島",
     "sourceUrl": "https://www.frontale.co.jp/schedule/all_games.html",
-    "fetchedAt": "2026-09-13T12:42:03.563Z"
+    "fetchedAt": "2026-09-13T12:44:18.278Z"
   }
 ]
