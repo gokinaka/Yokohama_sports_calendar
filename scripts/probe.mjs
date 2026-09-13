@@ -5,7 +5,7 @@
 // 使い方: node scripts/probe.mjs <URL> [追加で確認したい文字列(class名など)...]
 
 const USER_AGENT =
-  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/yokohama_sports_calendar)";
+  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/Yokohama_sports_calendar)";
 
 const url = process.argv[2];
 const extraAnchors = process.argv.slice(3);

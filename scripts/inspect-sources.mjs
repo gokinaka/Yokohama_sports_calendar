@@ -11,7 +11,7 @@ import { setTimeout as sleep } from "node:timers/promises";
 import { readFile } from "node:fs/promises";
 
 const USER_AGENT =
-  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/yokohama_sports_calendar)";
+  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/Yokohama_sports_calendar)";
 const REQUEST_INTERVAL_MS = 2000;
 const REQUEST_TIMEOUT_MS = 15000;
 

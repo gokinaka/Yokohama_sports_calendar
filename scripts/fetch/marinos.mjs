@@ -15,7 +15,7 @@ const TEAM = "横浜F・マリノス";
 const SPORT = "soccer";
 const LEAGUE = "J1";
 const USER_AGENT =
-  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/yokohama_sports_calendar)";
+  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/Yokohama_sports_calendar)";
 
 function extractFirst(block, re) {
   const m = block.match(re);
