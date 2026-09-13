@@ -3,20 +3,6 @@
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
     "league": "B.LEAGUE",
-    "competition": "プレシーズン",
-    "date": "2026-09-13",
-    "weekday": "日",
-    "time": "14:00",
-    "homeAway": "home",
-    "venue": "東急ドレッセとどろきアリーナ",
-    "opponent": "長崎",
-    "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
-  },
-  {
-    "team": "川崎ブレイブサンダース",
-    "sport": "basketball",
-    "league": "B.LEAGUE",
     "competition": "レギュラーシーズン",
     "date": "2026-09-26",
     "weekday": "土",
@@ -25,7 +11,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "名古屋D",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -39,7 +25,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "名古屋D",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -53,7 +39,7 @@
     "venue": "千葉ポートアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -67,7 +53,7 @@
     "venue": "千葉ポートアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -81,7 +67,7 @@
     "venue": "CNAアリーナ☆あきた",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -95,7 +81,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -109,7 +95,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -123,7 +109,7 @@
     "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
     "opponent": "島根",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -137,7 +123,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "大阪",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -151,7 +137,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -165,7 +151,7 @@
     "venue": "とちぎん・ブレックスアリーナ宇都宮",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -179,7 +165,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -193,7 +179,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -207,7 +193,7 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -221,7 +207,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -235,7 +221,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "島根",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -249,7 +235,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -263,7 +249,7 @@
     "venue": "横浜BUNTAI",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -277,7 +263,7 @@
     "venue": "GLION ARENA KOBE",
     "opponent": "神戸",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -291,7 +277,7 @@
     "venue": "YKK APアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -305,7 +291,7 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -319,7 +305,7 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -333,7 +319,7 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -347,7 +333,7 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -361,7 +347,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -375,7 +361,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -389,7 +375,7 @@
     "venue": "ホワイトリング",
     "opponent": "信州",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -403,7 +389,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -417,7 +403,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -431,7 +417,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "神戸",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -445,7 +431,7 @@
     "venue": "LaLa arena TOKYO-BAY",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -459,7 +445,7 @@
     "venue": "広島グリーンアリーナ",
     "opponent": "広島",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -473,7 +459,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -487,7 +473,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -501,7 +487,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "琉球",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -515,7 +501,7 @@
     "venue": "ハピネスアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -529,7 +515,7 @@
     "venue": "ハピネスアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -543,7 +529,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -557,7 +543,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "京都",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -571,7 +557,7 @@
     "venue": "SAGAアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -585,7 +571,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -599,7 +585,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -613,7 +599,7 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -627,7 +613,7 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -641,7 +627,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -655,7 +641,7 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -669,7 +655,7 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -683,7 +669,7 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -697,7 +683,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -711,7 +697,7 @@
     "venue": "ホワイトリング",
     "opponent": "信州",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -725,7 +711,7 @@
     "venue": "豊橋市総合体育館",
     "opponent": "三遠",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -739,7 +725,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -753,7 +739,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -767,7 +753,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "広島",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -781,7 +767,7 @@
     "venue": "沖縄サントリーアリーナ",
     "opponent": "琉球",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -795,7 +781,7 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -809,7 +795,7 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -823,7 +809,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "大阪",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -837,7 +823,7 @@
     "venue": "オープンハウスアリーナ太田",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -851,6 +837,6 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T12:42:18.703Z"
   }
 ]
