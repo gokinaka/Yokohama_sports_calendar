@@ -29,14 +29,31 @@ GitHub Actions上で実際にアクセスして調べた結果
 | ハンドボール | アースフレンズBM東京・神奈川 | `leagueh.jp/team/earthfriends/` | 38 |
 | ラグビー | 横浜キヤノンイーグルス | `league-one.jp/team/107` | 90 |
 
+### 追加調査で解決したもの(バスケ3チーム・実装済み)
+
+当初は「直近数試合しか出ない」と判断していたが、URLのクエリを調べ直して解決した。
+
+| 競技 | チーム | 採用URL | 取得数 |
+|---|---|---|---|
+| バスケ | 横浜ビー・コルセアーズ | `b-corsairs.com/schedule/list/?year=2026&month=all` | 61 |
+| バスケ | 川崎ブレイブサンダース | `kawasaki-bravethunders.com/schedule/list/?year=2026&month=all` | 61 |
+| バスケ | 富士通レッドウェーブ | `sports.jp.fujitsu.com/redwave/pages/nextgames` + `/page/N` | 37 |
+
+分かったこと:
+
+- ビー・コルセアーズとブレイブサンダースは同じCMSの同じテンプレートで、`/schedule/list/` に
+  `?year=<年>&month=all` を付けるとシーズン全体(2026年9月〜2027年5月)が1ページで返る。
+  `/schedule/`(list無し)や `?scheduleMonth=N` ではクエリを変えても同じHTMLが返るため、
+  当初は「直近数試合のみ」に見えていた。パーサーは2チームで共通化できる。
+- 富士通レッドウェーブはWordPressで、「試合予定」が1ページ12件のページ送りになっている。
+  4ページ目まで取得でき、5ページ目は404で終端が分かる。ホーム/アウェイ表記は無い。
+- Wリーグ公式(wjbl.org)はJavaScript描画で初期HTMLに日程が無く、チーム別ページも404だった。
+
 ### もう一段の調査が必要(○)
 
 | 競技 | チーム | 最良のURL | 検出日付数 | 課題 |
 |---|---|---|---|---|
 | サッカー | 川崎フロンターレ | `frontale.co.jp/schedule/monthly.php` | 7 | 月別ページ。月ごとに巡回すれば全試合取れる見込み |
-| バスケ | 横浜ビー・コルセアーズ | `b-corsairs.com/schedule/calendar/` | 14 | カレンダーページも1か月分のみ |
-| バスケ | 川崎ブレイブサンダース | `kawasaki-bravethunders.com/schedule/list/` | 9 | 同上。`/schedule/calendar/` も8件 |
-| バスケ | 富士通レッドウェーブ | `sports.jp.fujitsu.com/redwave/pages/nextgames` | 12 | 「試合予定」ページのため直近のみ。Wリーグ公式(wjbl.org)はトップに日程なし、チーム別ページは404 |
 
 ### 対象外(×)
 
