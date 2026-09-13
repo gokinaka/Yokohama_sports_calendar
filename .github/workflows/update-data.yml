@@ -43,6 +43,15 @@ jobs:
       - name: 横浜キヤノンイーグルス (リーグワン)
         continue-on-error: true
         run: node scripts/fetch/canon-eagles.mjs data/canon-eagles.json
+      - name: 横浜ビー・コルセアーズ (B.LEAGUE)
+        continue-on-error: true
+        run: node scripts/fetch/bcorsairs.mjs data/bcorsairs.json
+      - name: 川崎ブレイブサンダース (B.LEAGUE)
+        continue-on-error: true
+        run: node scripts/fetch/bravethunders.mjs data/bravethunders.json
+      - name: 富士通レッドウェーブ (Wリーグ)
+        continue-on-error: true
+        run: node scripts/fetch/redwave.mjs data/redwave.json
 
       - name: カレンダー用データを統合
         run: node scripts/build-events.mjs
