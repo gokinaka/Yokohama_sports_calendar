@@ -3,6 +3,8 @@
 横浜近郊(神奈川県)のプロスポーツチームの試合日程を1つのカレンダーにまとめて、
 観戦の予定を立てやすくするためのWebアプリ。
 
+**公開URL: https://gokinaka.github.io/Yokohama_sports_calendar/**
+
 ## 対応状況
 
 7競技11チームの日程を各公式サイト/リーグ公式サイトから毎日自動取得している。
@@ -66,17 +68,13 @@ node scripts/build-events.mjs                      # data/events.json を再生�
 `.github/workflows/deploy-pages.yml` が `site/index.html` と `data/` を `_site/` に
 まとめて公開する。データ更新ワークフローの完了後にも自動で再デプロイされる。
 
-初回のみ、リポジトリ設定でPagesを有効にする必要がある(GitHub ActionsのトークンではPagesサイトを
-新規作成できないため)。
+設定済み(Settings → Pages → Source = GitHub Actions)。以降は `site/` や `data/` の
+変更をpushすると自動でデプロイされる。
 
-1. リポジトリの **Settings → Pages** を開く
-2. **Build and deployment → Source** を **GitHub Actions** に変更
-3. Actionsタブから「Deploy to GitHub Pages」を実行(以降はpushで自動)
-
-公開URLは `https://gokinaka.github.io/Yokohama_sports_calendar/` になる。
-リポジトリがprivateのままでも、公開されたページ自体は誰でも閲覧できる点に注意。
-なお、privateリポジトリでPagesを使うには有料プランが必要で、Freeプランの場合は
-リポジトリをpublicにする必要がある。
+なお、GitHub ActionsのGITHUB_TOKENではPagesサイトを新規作成できないため
+(`Resource not accessible by integration`)、初回の有効化だけは設定画面での操作が必要だった。
+また、GitHub FreeプランではprivateリポジトリでPagesが使えないため、
+このリポジトリはpublicにしている。
 
 ## 未対応・今後の課題
 
