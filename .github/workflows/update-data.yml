@@ -25,6 +25,9 @@ jobs:
       - name: 横浜FC (J2)
         continue-on-error: true
         run: node scripts/fetch/yokohamafc.mjs data/yokohamafc.json
+      - name: 川崎フロンターレ (J1)
+        continue-on-error: true
+        run: node scripts/fetch/frontale.mjs data/frontale.json
       - name: 湘南ベルマーレ (J2)
         continue-on-error: true
         run: node scripts/fetch/bellmare.mjs data/bellmare.json
