@@ -6,6 +6,9 @@ import { fetchHtml, textOf, first, makeEvent, runFetcher } from "../lib/common.m
 
 const SOURCE_URL = "https://www.frontale.co.jp/schedule/all_games.html";
 const TEAM = "川崎フロンターレ";
+// 全試合一覧にはU-21(育成年代)のJリーグ戦も含まれるが、
+// 他チームと揃えてトップチームの試合だけを対象にする。
+const EXCLUDED_COMPETITIONS = ["U-21"];
 
 export function parse(html, fetchedAt) {
   const events = [];
@@ -16,6 +19,9 @@ export function parse(html, fetchedAt) {
       : null;
     if (!date) continue;
 
+    const competition = first(row, /data-title="([^"]*)"/);
+    if (competition && EXCLUDED_COMPETITIONS.some((w) => competition.includes(w))) continue;
+
     const rowClass = first(row, /<tr class="([^"]*)"/) ?? "";
     const homeAway = rowClass.includes("home") ? "home" : rowClass.includes("away") ? "away" : null;
 
@@ -24,7 +30,7 @@ export function parse(html, fetchedAt) {
         team: TEAM,
         sport: "soccer",
         league: "J1",
-        competition: first(row, /data-title="([^"]*)"/),
+        competition,
         date,
         weekday: first(row, /<small>[（(]([月火水木金土日])[）)]<\/small>/),
         time: first(row, /<p class="ko_time">\s*(\d{1,2}:\d{2})/),
