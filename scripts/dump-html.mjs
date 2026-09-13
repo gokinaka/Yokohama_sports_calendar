@@ -10,13 +10,12 @@ const REQUEST_TIMEOUT_MS = 20000;
 const OUT_DIR = "tmp-html";
 
 const TARGETS = [
-  { name: "yokohamafc", url: "https://yokohamafc.com/game/schedule/" },
-  { name: "bellmare", url: "https://www.bellmare.co.jp/fixtures_2026_27" },
-  { name: "baystars", url: "https://sp.baystars.co.jp/game/schedule/2026/9" },
-  { name: "necrockets", url: "https://red.necrockets.net/match/schedule/" },
-  { name: "tleague", url: "https://tleague.jp/schedule/?team=8" },
-  { name: "leagueh", url: "https://leagueh.jp/team/earthfriends/" },
-  { name: "leagueone", url: "https://league-one.jp/team/107" },
+  { name: "bcorsairs-m10", url: "https://b-corsairs.com/schedule/?scheduleMonth=10" },
+  { name: "bcorsairs-m12", url: "https://b-corsairs.com/schedule/?scheduleMonth=12" },
+  { name: "bravethunders-m10", url: "https://kawasaki-bravethunders.com/schedule/?scheduleMonth=10" },
+  { name: "wjbl-month", url: "https://www.wjbl.org/schedule_result/?m=2026-10&l_id=43" },
+  { name: "wjbl-top", url: "https://www.wjbl.org/schedule_result/" },
+  { name: "redwave", url: "https://sports.jp.fujitsu.com/redwave/pages/nextgames" },
 ];
 
 function strip(html) {
