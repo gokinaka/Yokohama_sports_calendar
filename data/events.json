@@ -11,7 +11,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -25,7 +26,8 @@
     "venue": "トッケイセキュリティ平塚総合体育館",
     "opponent": "原州DB",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -39,7 +41,8 @@
     "venue": "横浜",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -53,7 +56,8 @@
     "venue": "横浜",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -67,7 +71,8 @@
     "venue": "横浜",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -81,7 +86,8 @@
     "venue": "神宮",
     "opponent": "東京ヤクルト",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "outside"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -95,7 +101,8 @@
     "venue": "横浜",
     "opponent": "東京ヤクルト",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -109,7 +116,8 @@
     "venue": "カルッツかわさき",
     "opponent": "日本生命",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -123,7 +131,8 @@
     "venue": "横浜",
     "opponent": "東京ヤクルト",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -137,7 +146,8 @@
     "venue": "レモンＳ",
     "opponent": "ブラウブリッツ秋田",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜FC",
@@ -151,7 +161,8 @@
     "venue": "ニッパツ三ツ沢球技場",
     "opponent": "FC今治",
     "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-09-13T01:25:32.875Z"
+    "fetchedAt": "2026-09-13T01:25:32.875Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -165,7 +176,8 @@
     "venue": "日産スタジアム",
     "opponent": "水戸ホーリーホック",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -179,7 +191,8 @@
     "venue": "カルッツかわさき",
     "opponent": "トップ",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -193,7 +206,8 @@
     "venue": "甲子園",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "outside"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -207,7 +221,8 @@
     "venue": "甲子園",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "outside"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -221,7 +236,8 @@
     "venue": "横浜",
     "opponent": "中日",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -235,7 +251,8 @@
     "venue": "横浜",
     "opponent": "中日",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -249,7 +266,8 @@
     "venue": "横浜",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -263,7 +281,8 @@
     "venue": "横浜",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -277,7 +296,8 @@
     "venue": "日環アリーナ栃木",
     "opponent": "宇都宮",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -291,7 +311,8 @@
     "venue": "アシさと",
     "opponent": "ＦＣ今治",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -305,7 +326,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "名古屋D",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -319,7 +341,8 @@
     "venue": "横浜",
     "opponent": "広島",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -333,7 +356,8 @@
     "venue": "日環アリーナ栃木",
     "opponent": "宇都宮",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -347,7 +371,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "名古屋D",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -361,7 +386,8 @@
     "venue": "横浜",
     "opponent": "広島",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -375,7 +401,8 @@
     "venue": "横浜",
     "opponent": "中日",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/9",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -389,7 +416,8 @@
     "venue": "NDソフトスタジアム山形",
     "opponent": "モンテディオ山形",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -403,7 +431,8 @@
     "venue": "藤枝サ",
     "opponent": "藤枝ＭＹＦＣ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -417,7 +446,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": "清州 KBスターズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -431,7 +461,8 @@
     "venue": "千葉ポートアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -445,7 +476,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "信州",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -459,7 +491,8 @@
     "venue": "東京D",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -473,7 +506,8 @@
     "venue": "リクルートスタッフィング リック＆スー旭川体育館",
     "opponent": "日本生命",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -487,7 +521,8 @@
     "venue": "千葉ポートアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -501,7 +536,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "信州",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -515,7 +551,8 @@
     "venue": "横浜",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-09-13T01:25:36.420Z"
+    "fetchedAt": "2026-09-13T01:25:36.420Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -529,7 +566,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": "サムスン生命",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -543,7 +581,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": "カールトン大学",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -557,7 +596,8 @@
     "venue": "日産スタジアム",
     "opponent": "京都産業大学",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -571,7 +611,8 @@
     "venue": "おおきにアリーナ舞洲",
     "opponent": "大阪",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -585,7 +626,8 @@
     "venue": "CNAアリーナ☆あきた",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -599,7 +641,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": "BNK サム",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -613,7 +656,8 @@
     "venue": "にっしんでんきアリーナ京都(京都市体育館)",
     "opponent": "京都",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -627,7 +671,8 @@
     "venue": "マービーふれあいセンター（倉敷市）",
     "opponent": "ニッペM",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -641,7 +686,8 @@
     "venue": "YANMAR HANASAKA STADIUM",
     "opponent": "セレッソ大阪",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -655,7 +701,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": null,
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜FC",
@@ -669,7 +716,8 @@
     "venue": "ニッパツ三ツ沢球技場",
     "opponent": "大分トリニータ",
     "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-09-13T01:25:32.875Z"
+    "fetchedAt": "2026-09-13T01:25:32.875Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -683,7 +731,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": null,
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -697,7 +746,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -711,7 +761,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": null,
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -725,7 +776,8 @@
     "venue": "清洲体育館（韓国・清洲市）",
     "opponent": null,
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -739,7 +791,8 @@
     "venue": "レモンＳ",
     "opponent": "アルビレックス新潟",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -753,7 +806,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "千葉J",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -767,7 +821,8 @@
     "venue": "大和町総合体育館",
     "opponent": "トヨタ自動車東日本レガロッソ宮城",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -781,7 +836,8 @@
     "venue": "駒沢オリンピック公園 総合運動場体育館",
     "opponent": null,
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -795,7 +851,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "琉球",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -809,7 +866,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -823,7 +881,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "ブレイヴキングス刈谷",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -837,7 +896,8 @@
     "venue": "フクダ電子アリーナ",
     "opponent": "ジェフユナイテッド千葉",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -851,7 +911,8 @@
     "venue": "駒沢屋内球技場（世田谷区）",
     "opponent": "京都",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -865,7 +926,8 @@
     "venue": "富山",
     "opponent": "カターレ富山",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -879,7 +941,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "ヴィクトリーナ姫路",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -893,7 +956,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "北海道",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -907,7 +971,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "ヴィクトリーナ姫路",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -921,7 +986,8 @@
     "venue": "駒沢屋内球技場（世田谷区）",
     "opponent": "ニッペM",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -935,7 +1001,8 @@
     "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
     "opponent": "島根",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -949,7 +1016,8 @@
     "venue": "レモンＳ",
     "opponent": "いわきＦＣ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -963,7 +1031,8 @@
     "venue": "MUFGスタジアム",
     "opponent": "東京ヴェルディ",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -977,7 +1046,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "大阪",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -991,7 +1061,8 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -1005,7 +1076,8 @@
     "venue": "高岡市竹平記念体育館",
     "opponent": "富山ドリームス",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1019,7 +1091,8 @@
     "venue": "ひたちなか市総合運動公園総合体育館",
     "opponent": "Astemoリヴァーレ茨城",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1033,7 +1106,8 @@
     "venue": "CNAアリーナ☆あきた",
     "opponent": "秋田",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1047,7 +1121,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -1061,7 +1136,8 @@
     "venue": "豊田スタジアム",
     "opponent": "名古屋グランパス",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1075,7 +1151,8 @@
     "venue": "ひたちなか市総合運動公園総合体育館",
     "opponent": "Astemoリヴァーレ茨城",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1089,7 +1166,8 @@
     "venue": "レモンＳ",
     "opponent": "栃木シティ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1103,7 +1181,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "広島",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1117,7 +1196,8 @@
     "venue": "とちぎん・ブレックスアリーナ宇都宮",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1131,7 +1211,8 @@
     "venue": "カルッツかわさき",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1145,7 +1226,8 @@
     "venue": "札幌厚別",
     "opponent": "北海道コンサドーレ札幌",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1159,7 +1241,8 @@
     "venue": "トッケイセキュリティ 平塚総合体育館",
     "opponent": "デンソー アイリス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1173,7 +1256,8 @@
     "venue": "カルッツかわさき",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1187,7 +1271,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "川崎",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1201,7 +1286,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -1215,7 +1301,8 @@
     "venue": "日産スタジアム",
     "opponent": "川崎フロンターレ",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1229,7 +1316,8 @@
     "venue": "トッケイセキュリティ 平塚総合体育館",
     "opponent": "デンソー アイリス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1243,7 +1331,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "川崎",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1257,7 +1346,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1271,7 +1361,8 @@
     "venue": "レモンＳ",
     "opponent": "サガン鳥栖",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1285,7 +1376,8 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -1299,7 +1391,8 @@
     "venue": "日産スタジアム",
     "opponent": "ファジアーノ岡山",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1313,7 +1406,8 @@
     "venue": "カルッツかわさき",
     "opponent": "ＥＮＥＯＳサンフラワーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1327,7 +1421,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1341,7 +1436,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "神戸",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -1355,7 +1451,8 @@
     "venue": "名古屋市東スポーツセンター",
     "opponent": "トップ",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1369,7 +1466,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1383,7 +1481,8 @@
     "venue": "ヤマハ",
     "opponent": "ジュビロ磐田",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1397,7 +1496,8 @@
     "venue": "カルッツかわさき",
     "opponent": "ＥＮＥＯＳサンフラワーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1411,7 +1511,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1425,7 +1526,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "島根",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1439,7 +1541,8 @@
     "venue": "千葉ポートアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1453,7 +1556,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1467,7 +1571,8 @@
     "venue": "レモンＳ",
     "opponent": "横浜ＦＣ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -1481,7 +1586,8 @@
     "venue": "エスフォルタアリーナ八王子",
     "opponent": "レッドトルネード佐賀",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1495,7 +1601,8 @@
     "venue": "横浜武道館",
     "opponent": "トヨタ紡織 サンシャインラビッツ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1509,7 +1616,8 @@
     "venue": "山陽ふれあい公園総合体育館",
     "opponent": "岡山シーガルズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1523,7 +1631,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "滋賀",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1537,7 +1646,8 @@
     "venue": "横浜武道館",
     "opponent": "トヨタ紡織 サンシャインラビッツ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1551,7 +1661,8 @@
     "venue": "山陽ふれあい公園総合体育館",
     "opponent": "岡山シーガルズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1565,7 +1676,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "川崎",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1579,7 +1691,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1593,7 +1706,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "佐賀",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1607,7 +1721,8 @@
     "venue": "GLION ARENA KOBE",
     "opponent": "神戸",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -1621,7 +1736,8 @@
     "venue": "エントリオ(豊田合成記念体育館)",
     "opponent": "豊田合成ブルーファルコン名古屋",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -1635,7 +1751,8 @@
     "venue": "エディオンピースウイング広島",
     "opponent": "サンフレッチェ広島",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1649,7 +1766,8 @@
     "venue": "ダイセンアリーナ西尾",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1663,7 +1781,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1677,7 +1796,8 @@
     "venue": "ダイセンアリーナ西尾",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1691,7 +1811,8 @@
     "venue": "鳴門大塚",
     "opponent": "徳島ヴォルティス",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1705,7 +1826,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -1719,7 +1841,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "琉球コラソン",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1733,7 +1856,8 @@
     "venue": "レモンＳ",
     "opponent": "ヴァンフォーレ甲府",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -1747,7 +1871,8 @@
     "venue": "ベスト電器スタジアム",
     "opponent": "アビスパ福岡",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -1761,7 +1886,8 @@
     "venue": "北陸電力福井体育館フレア",
     "opponent": "福井永平寺ブルーサンダー",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1775,7 +1901,8 @@
     "venue": "トッケイセキュリティ 平塚総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1789,7 +1916,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "PFUブルーキャッツ石川かほく",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1803,7 +1931,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "PFUブルーキャッツ石川かほく",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1817,7 +1946,8 @@
     "venue": "レモンＳ",
     "opponent": "カターレ富山",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -1831,7 +1961,8 @@
     "venue": "日産スタジアム",
     "opponent": "FC東京",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1845,7 +1976,8 @@
     "venue": "トッケイセキュリティ 平塚総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -1859,7 +1991,8 @@
     "venue": "東海市民体育館",
     "opponent": "大同フェニックス東海",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1873,7 +2006,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "島根",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1887,7 +2021,8 @@
     "venue": "名古屋金城ふ頭アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -1901,7 +2036,8 @@
     "venue": "名古屋金城ふ頭アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -1915,7 +2051,8 @@
     "venue": "ユアスタ",
     "opponent": "ベガルタ仙台",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -1929,7 +2066,8 @@
     "venue": "YKK APアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -1943,7 +2081,8 @@
     "venue": "パナソニック スタジアム 吹田",
     "opponent": "ガンバ大阪",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -1957,7 +2096,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "京都",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1971,7 +2111,8 @@
     "venue": "Wlamir Marques Multi-Sports Gymnasium：ブラジル／サンパウロ",
     "opponent": "Eczacıbaşı Peron Istanbul",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1985,7 +2126,8 @@
     "venue": "Wlamir Marques Multi-Sports Gymnasium：ブラジル／サンパウロ",
     "opponent": "Club Alianza Lima",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -1999,7 +2141,8 @@
     "venue": "Wlamir Marques Multi-Sports Gymnasium：ブラジル／サンパウロ",
     "opponent": "Osasco São Cristóvão Saúde ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2013,7 +2156,8 @@
     "venue": "スカイアリーナ座間",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2027,7 +2171,8 @@
     "venue": "YKK APアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2041,7 +2186,8 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2055,7 +2201,8 @@
     "venue": "船橋アリーナ",
     "opponent": "ニッペM",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -2069,7 +2216,8 @@
     "venue": "日産スタジアム",
     "opponent": "V･ファーレン長崎",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -2083,7 +2231,8 @@
     "venue": "レモンＳ",
     "opponent": "ＦＣ今治",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2097,7 +2246,8 @@
     "venue": "スカイアリーナ座間",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2111,7 +2261,8 @@
     "venue": "YKK APアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2125,7 +2276,8 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2139,7 +2291,8 @@
     "venue": "船橋アリーナ",
     "opponent": "日本生命",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -2153,7 +2306,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "堺リエゾン",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2167,7 +2321,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "広島",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2181,7 +2336,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "Astemoリヴァーレ茨城",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2195,7 +2351,8 @@
     "venue": "LaLa arena TOKYO-BAY",
     "opponent": "千葉J",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -2209,7 +2366,8 @@
     "venue": "泉大津市立総合体育館",
     "opponent": "アルバモス大阪高石",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2223,7 +2381,8 @@
     "venue": "大浜だいしんアリーナ",
     "opponent": "デンソー アイリス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -2237,7 +2396,8 @@
     "venue": "ノエビアスタジアム神戸",
     "opponent": "ヴィッセル神戸",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2251,7 +2411,8 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2265,7 +2426,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "Astemoリヴァーレ茨城",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2279,7 +2441,8 @@
     "venue": "福岡武道館",
     "opponent": "九州",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2293,7 +2456,8 @@
     "venue": "大浜だいしんアリーナ",
     "opponent": "デンソー アイリス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2307,7 +2471,8 @@
     "venue": "LaLa arena TOKYO-BAY",
     "opponent": "千葉J",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2321,7 +2486,8 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2335,7 +2501,8 @@
     "venue": "代々木第二体育館（渋谷区）",
     "opponent": "日本生命",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2349,7 +2516,8 @@
     "venue": "ヤマト市民体育館前橋",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2363,7 +2531,8 @@
     "venue": "かみす防災アリーナ",
     "opponent": "ＥＮＥＯＳサンフラワーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2377,7 +2546,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "仙台",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2391,7 +2561,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2405,7 +2576,8 @@
     "venue": "ヤマト市民体育館前橋",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2419,7 +2591,8 @@
     "venue": "かみす防災アリーナ",
     "opponent": "ＥＮＥＯＳサンフラワーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2433,7 +2606,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "仙台",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2447,7 +2621,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2461,7 +2636,8 @@
     "venue": "ホワイトリング",
     "opponent": "信州",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2475,7 +2651,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2489,7 +2666,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "A千葉",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2503,7 +2681,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "A千葉",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2517,7 +2696,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2531,7 +2711,8 @@
     "venue": "INPEX酒田アリーナ",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2545,7 +2726,8 @@
     "venue": "横浜国際プール",
     "opponent": "九州",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2559,7 +2741,8 @@
     "venue": "INPEX酒田アリーナ",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2573,7 +2756,8 @@
     "venue": "横浜国際プール",
     "opponent": "トップ",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2587,7 +2771,8 @@
     "venue": "SAGAアリーナ",
     "opponent": "SAGA久光スプリングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2601,7 +2786,8 @@
     "venue": "SAGAアリーナ",
     "opponent": "SAGA久光スプリングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2615,7 +2801,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "神戸",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2629,7 +2816,8 @@
     "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
     "opponent": "島根",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2643,7 +2831,8 @@
     "venue": "EBARA WAVE アリーナおおた",
     "opponent": "大阪マーヴェラス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2657,7 +2846,8 @@
     "venue": "EBARA WAVE アリーナおおた",
     "opponent": "大阪マーヴェラス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2671,7 +2861,8 @@
     "venue": "豊橋市総合体育館",
     "opponent": "三遠",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2685,7 +2876,8 @@
     "venue": "LaLa arena TOKYO-BAY",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2699,7 +2891,8 @@
     "venue": "おおきにアリーナ舞洲",
     "opponent": "大阪",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2713,7 +2906,8 @@
     "venue": "広島グリーンアリーナ",
     "opponent": "広島",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2727,7 +2921,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2741,7 +2936,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2755,7 +2951,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2769,7 +2966,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2783,7 +2981,8 @@
     "venue": "KBSホール（京都市）",
     "opponent": "京都",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2797,7 +2996,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "琉球",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2811,7 +3011,8 @@
     "venue": "ハピネスアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2825,7 +3026,8 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -2839,7 +3041,8 @@
     "venue": "東大阪アリーナ",
     "opponent": "ニッペM",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2853,7 +3056,8 @@
     "venue": "黒部市総合体育センター",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -2867,7 +3071,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "大崎オーソル埼玉",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2881,7 +3086,8 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2895,7 +3101,8 @@
     "venue": "ハピネスアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2909,7 +3116,8 @@
     "venue": "黒部市総合体育センター",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -2923,7 +3131,8 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -2937,7 +3146,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -2951,7 +3161,8 @@
     "venue": "アリーナ立川立飛",
     "opponent": "ジークスター東京",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -2965,7 +3176,8 @@
     "venue": "サンガスタジアム by KYOCERA",
     "opponent": "京都サンガF.C.",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -2979,7 +3191,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -2993,7 +3206,8 @@
     "venue": "バルドラール浦安アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3007,7 +3221,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3021,7 +3236,8 @@
     "venue": "バルドラール浦安アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3035,7 +3251,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "長崎",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3049,7 +3266,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "京都",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3063,7 +3281,8 @@
     "venue": "オープンハウスアリーナ太田",
     "opponent": "群馬",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3077,7 +3296,8 @@
     "venue": "SAGAアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3091,7 +3311,8 @@
     "venue": "レモンＳ",
     "opponent": "ヴァンラーレ八戸",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -3105,7 +3326,8 @@
     "venue": "日産スタジアム",
     "opponent": "FC町田ゼルビア",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3119,7 +3341,8 @@
     "venue": "深谷ビッグタートル",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3133,7 +3356,8 @@
     "venue": "日立市池の川さくらアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -3147,7 +3371,8 @@
     "venue": "カルッツかわさき",
     "opponent": "京都",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3161,7 +3386,8 @@
     "venue": "深谷ビッグタートル",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3175,7 +3401,8 @@
     "venue": "日立市池の川さくらアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -3189,7 +3416,8 @@
     "venue": "カルッツかわさき",
     "opponent": "ニッペM",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -3203,7 +3431,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "トヨタ自動車東日本レガロッソ宮城",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3217,7 +3446,8 @@
     "venue": "ＪＩＴス",
     "opponent": "ヴァンフォーレ甲府",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -3231,7 +3461,8 @@
     "venue": "日産スタジアム",
     "opponent": "セレッソ大阪",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3245,7 +3476,8 @@
     "venue": "豊橋市総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -3259,7 +3491,8 @@
     "venue": "ウィングアリーナ刈谷",
     "opponent": "ブレイヴキングス刈谷",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3273,7 +3506,8 @@
     "venue": "パークアリーナ小牧",
     "opponent": "アリーザ愛知",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "木下アビエル神奈川",
@@ -3287,7 +3521,8 @@
     "venue": "長野運動公園総合体育館",
     "opponent": "日本生命",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3301,7 +3536,8 @@
     "venue": "豊橋市総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3315,7 +3551,8 @@
     "venue": "パークアリーナ小牧",
     "opponent": "アリーザ愛知",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3329,7 +3566,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "A東京",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3343,7 +3581,8 @@
     "venue": "レモンＳ",
     "opponent": "徳島ヴォルティス",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3357,7 +3596,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -3371,7 +3611,8 @@
     "venue": "MUFGスタジアム",
     "opponent": "東京ヴェルディ",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3385,7 +3626,8 @@
     "venue": "横須賀アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3399,7 +3641,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "A東京",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3413,7 +3656,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3427,7 +3671,8 @@
     "venue": "横須賀アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "kanagawa"
   },
   {
     "team": "木下アビエル神奈川",
@@ -3441,7 +3686,8 @@
     "venue": "名古屋金城ふ頭アリーナ",
     "opponent": "トップ",
     "sourceUrl": "https://tleague.jp/schedule/",
-    "fetchedAt": "2026-09-13T01:25:44.907Z"
+    "fetchedAt": "2026-09-13T01:25:44.907Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3455,7 +3701,8 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -3469,7 +3716,8 @@
     "venue": "JFE晴れの国スタジアム",
     "opponent": "ファジアーノ岡山",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3483,7 +3731,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "秋田",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3497,7 +3746,8 @@
     "venue": "レモンＳ",
     "opponent": "ＲＢ大宮アルディージャ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3511,7 +3761,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -3525,7 +3776,8 @@
     "venue": "日産スタジアム",
     "opponent": "アビスパ福岡",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3539,7 +3791,8 @@
     "venue": "静岡県武道館",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3553,7 +3806,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3567,7 +3821,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "秋田",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3581,7 +3836,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3595,7 +3851,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -3609,7 +3866,8 @@
     "venue": "静岡県武道館",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/4",
-    "fetchedAt": "2026-09-13T01:25:49.872Z"
+    "fetchedAt": "2026-09-13T01:25:49.872Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3623,7 +3881,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "東京SR",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3637,7 +3896,8 @@
     "venue": "デンカＳ",
     "opponent": "アルビレックス新潟",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3651,7 +3911,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3665,7 +3926,8 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3679,7 +3941,8 @@
     "venue": "IGアリーナ",
     "opponent": "名古屋D",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3693,7 +3956,8 @@
     "venue": "ニッパツ",
     "opponent": "横浜ＦＣ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -3707,7 +3971,8 @@
     "venue": "日産スタジアム",
     "opponent": "浦和レッズ",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3721,7 +3986,8 @@
     "venue": "草津市滋賀トヨタアリーナ",
     "opponent": "東レアローズ滋賀",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3735,7 +4001,8 @@
     "venue": "IGアリーナ",
     "opponent": "名古屋D",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3749,7 +4016,8 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3763,7 +4031,8 @@
     "venue": "草津市滋賀トヨタアリーナ",
     "opponent": "東レアローズ滋賀",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -3777,7 +4046,8 @@
     "venue": "吉野ヶ里町文化体育館",
     "opponent": "レッドトルネード佐賀",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3791,7 +4061,8 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3805,7 +4076,8 @@
     "venue": "レモンＳ",
     "opponent": "北海道コンサドーレ札幌",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3819,7 +4091,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -3833,7 +4106,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "豊田合成ブルーファルコン名古屋",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -3847,7 +4121,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-09-13T01:25:43.781Z"
+    "fetchedAt": "2026-09-13T01:25:43.781Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3861,7 +4136,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "琉球",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3875,7 +4151,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3889,7 +4166,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "富山",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -3903,7 +4181,8 @@
     "venue": "ハワスタ",
     "opponent": "いわきＦＣ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -3917,7 +4196,8 @@
     "venue": "メルカリスタジアム",
     "opponent": "鹿島アントラーズ",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3931,7 +4211,8 @@
     "venue": "ホワイトリング",
     "opponent": "信州",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3945,7 +4226,8 @@
     "venue": "SAGAアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3959,7 +4241,8 @@
     "venue": "豊橋市総合体育館",
     "opponent": "三遠",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -3973,7 +4256,8 @@
     "venue": "調整中",
     "opponent": "三河",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "unknown"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -3987,7 +4271,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4001,7 +4286,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "茨城",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4015,7 +4301,8 @@
     "venue": "レモンＳ",
     "opponent": "藤枝ＭＹＦＣ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -4029,7 +4316,8 @@
     "venue": "日産スタジアム",
     "opponent": "サンフレッチェ広島",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -4043,7 +4331,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "福井永平寺ブルーサンダー",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4057,7 +4346,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "茨城",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4071,7 +4361,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4085,7 +4376,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "広島",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4099,7 +4391,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "宇都宮",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4113,7 +4406,8 @@
     "venue": "ソユスタ",
     "opponent": "ブラウブリッツ秋田",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -4127,7 +4421,8 @@
     "venue": "日産スタジアム",
     "opponent": "柏レイソル",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4141,7 +4436,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4155,7 +4451,8 @@
     "venue": "沖縄サントリーアリーナ",
     "opponent": "琉球",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4169,7 +4466,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4183,7 +4481,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "群馬",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4197,7 +4496,8 @@
     "venue": "ＣＦＳ",
     "opponent": "栃木シティ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -4211,7 +4511,8 @@
     "venue": "味の素スタジアム",
     "opponent": "FC東京",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "アースフレンズBM東京・神奈川",
@@ -4225,7 +4526,8 @@
     "venue": "EBARA WAVE アリーナおおた（大田区総合体育館）",
     "opponent": "アルバモス大阪高石",
     "sourceUrl": "https://leagueh.jp/team/earthfriends/",
-    "fetchedAt": "2026-09-13T01:25:46.416Z"
+    "fetchedAt": "2026-09-13T01:25:46.416Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4239,7 +4541,8 @@
     "venue": "横浜BUNTAI",
     "opponent": "群馬",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4253,7 +4556,8 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4267,7 +4571,8 @@
     "venue": "IGアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4281,7 +4586,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "大阪",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4295,7 +4601,8 @@
     "venue": "レモンＳ",
     "opponent": "大分トリニータ",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -4309,7 +4616,8 @@
     "venue": "日産スタジアム",
     "opponent": "名古屋グランパス",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4323,7 +4631,8 @@
     "venue": "オープンハウスアリーナ太田",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "outside"
   },
   {
     "team": "横浜ビー・コルセアーズ",
@@ -4337,7 +4646,8 @@
     "venue": "豊橋市総合体育館",
     "opponent": "三遠",
     "sourceUrl": "https://b-corsairs.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.086Z"
+    "fetchedAt": "2026-09-13T01:25:49.086Z",
+    "region": "outside"
   },
   {
     "team": "川崎ブレイブサンダース",
@@ -4351,7 +4661,8 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-09-13T01:25:49.422Z"
+    "fetchedAt": "2026-09-13T01:25:49.422Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4365,7 +4676,8 @@
     "venue": "ＮＤスタ",
     "opponent": "モンテディオ山形",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "outside"
   },
   {
     "team": "横浜F・マリノス",
@@ -4379,7 +4691,8 @@
     "venue": "PEACE STADIUM Connected by SoftBank",
     "opponent": "V･ファーレン長崎",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4393,7 +4706,8 @@
     "venue": "レモンＳ",
     "opponent": "テゲバジャーロ宮崎",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -4407,7 +4721,8 @@
     "venue": "日産スタジアム",
     "opponent": "ガンバ大阪",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4421,7 +4736,8 @@
     "venue": "未定",
     "opponent": "サガン鳥栖",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "unknown"
   },
   {
     "team": "横浜F・マリノス",
@@ -4435,7 +4751,8 @@
     "venue": "Uvanceとどろきスタジアム by Fujitsu",
     "opponent": "川崎フロンターレ",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -4449,7 +4766,8 @@
     "venue": "日産スタジアム",
     "opponent": "清水エスパルス",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "湘南ベルマーレ",
@@ -4463,7 +4781,8 @@
     "venue": "レモンＳ",
     "opponent": "ジュビロ磐田",
     "sourceUrl": "https://www.bellmare.co.jp/fixtures_2026_27",
-    "fetchedAt": "2026-09-13T01:25:34.642Z"
+    "fetchedAt": "2026-09-13T01:25:34.642Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -4477,7 +4796,8 @@
     "venue": "日産スタジアム",
     "opponent": "ジェフユナイテッド千葉",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "kanagawa"
   },
   {
     "team": "横浜F・マリノス",
@@ -4491,6 +4811,7 @@
     "venue": "水戸信用金庫スタジアム",
     "opponent": "水戸ホーリーホック",
     "sourceUrl": "https://www.f-marinos.com/matches/schedule",
-    "fetchedAt": "2026-09-13T01:25:32.834Z"
+    "fetchedAt": "2026-09-13T01:25:32.834Z",
+    "region": "outside"
   }
 ]

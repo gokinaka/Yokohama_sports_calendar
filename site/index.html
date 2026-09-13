@@ -49,6 +49,7 @@
     cursor: pointer;
   }
   .filters button[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+  #regionFilters button { font-weight: bold; }
   .panel {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -69,6 +70,7 @@
 <div class="wrap">
   <h1>横浜近郊スポーツ観戦カレンダー</h1>
   <p class="meta" id="status">読み込み中...</p>
+  <div class="filters" id="regionFilters"></div>
   <div class="filters" id="filters"></div>
   <div id="list"></div>
   <div class="panel" id="coverage"></div>
@@ -94,12 +96,18 @@
     rugby: "ラグビー",
   };
 
+  const REGION_LABELS = { kanagawa: "神奈川県内", outside: "県外", all: "すべて" };
   let events = [];
   let activeSports = new Set();
+  let activeRegion = "kanagawa";
 
   function render() {
     const list = document.getElementById("list");
-    const shown = events.filter((e) => activeSports.size === 0 || activeSports.has(e.sport));
+    const shown = events.filter(
+      (e) =>
+        (activeSports.size === 0 || activeSports.has(e.sport)) &&
+        (activeRegion === "all" || e.region === activeRegion)
+    );
     const byMonth = new Map();
     for (const e of shown) {
       const key = e.date.slice(0, 7);
@@ -132,8 +140,30 @@
         </table></div>`;
       list.appendChild(panel);
     }
+    const unknownCount = events.filter((e) => e.region === "unknown").length;
+    const note = activeRegion === "kanagawa" && unknownCount > 0 ? ` / 会場未定${unknownCount}件は非表示` : "";
     document.getElementById("status").textContent =
-      `${shown.length}件の試合を表示中(全${events.length}件)`;
+      `${REGION_LABELS[activeRegion]}の試合を${shown.length}件表示中(全${events.length}件)${note}`;
+  }
+
+  function buildRegionFilters() {
+    const box = document.getElementById("regionFilters");
+    for (const region of ["kanagawa", "outside", "all"]) {
+      const n =
+        region === "all" ? events.length : events.filter((e) => e.region === region).length;
+      const btn = document.createElement("button");
+      btn.id = `region-${region}`;
+      btn.textContent = `${REGION_LABELS[region]} (${n})`;
+      btn.setAttribute("aria-pressed", String(region === activeRegion));
+      btn.addEventListener("click", () => {
+        activeRegion = region;
+        for (const r of ["kanagawa", "outside", "all"]) {
+          document.getElementById(`region-${r}`).setAttribute("aria-pressed", String(r === region));
+        }
+        render();
+      });
+      box.appendChild(btn);
+    }
   }
 
   function buildFilters() {
@@ -179,6 +209,7 @@
   ])
     .then(([data, status]) => {
       events = data;
+      buildRegionFilters();
       buildFilters();
       render();
       if (status) renderCoverage(status);

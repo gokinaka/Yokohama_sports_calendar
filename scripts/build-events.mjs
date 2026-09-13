@@ -2,6 +2,7 @@
 // 過去の試合は観戦予定には不要なので、当日以降のものだけを残す。
 
 import { readdir, readFile, writeFile } from "node:fs/promises";
+import { loadVenueConfig, classifyVenue } from "./lib/region.mjs";
 
 const DATA_DIR = "data";
 const OUT_FILE = "data/events.json";
@@ -14,6 +15,7 @@ function today() {
 }
 
 async function main() {
+  const venueConfig = await loadVenueConfig();
   const generated = new Set([OUT_FILE, STATUS_FILE].map((p) => p.split("/").pop()));
   const files = (await readdir(DATA_DIR)).filter(
     (f) => f.endsWith(".json") && !generated.has(f)
@@ -23,7 +25,9 @@ async function main() {
   for (const file of files) {
     const events = JSON.parse(await readFile(`${DATA_DIR}/${file}`, "utf-8"));
     if (events.length === 0) continue;
-    const upcoming = events.filter((e) => e.date >= today());
+    const upcoming = events
+      .filter((e) => e.date >= today())
+      .map((e) => ({ ...e, region: classifyVenue(e.venue, venueConfig) }));
     all.push(...upcoming);
     teams.push({
       team: events[0].team,
@@ -47,6 +51,8 @@ async function main() {
   for (const t of teams) {
     console.log(`${t.team}: 全${t.total}件中 今後${t.upcoming}件`);
   }
+  const byRegion = all.reduce((acc, e) => ({ ...acc, [e.region]: (acc[e.region] ?? 0) + 1 }), {});
+  console.log(`\n会場の所在: 県内${byRegion.kanagawa ?? 0}件 / 県外${byRegion.outside ?? 0}件 / 不明${byRegion.unknown ?? 0}件`);
   console.log(`\n合計 ${all.length}件を ${OUT_FILE} に書き出しました`);
 }
 
