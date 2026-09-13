@@ -10,12 +10,10 @@ const REQUEST_TIMEOUT_MS = 20000;
 const OUT_DIR = "tmp-html";
 
 const TARGETS = [
-  { name: "bcorsairs-m10", url: "https://b-corsairs.com/schedule/?scheduleMonth=10" },
-  { name: "bcorsairs-m12", url: "https://b-corsairs.com/schedule/?scheduleMonth=12" },
-  { name: "bravethunders-m10", url: "https://kawasaki-bravethunders.com/schedule/?scheduleMonth=10" },
-  { name: "wjbl-month", url: "https://www.wjbl.org/schedule_result/?m=2026-10&l_id=43" },
-  { name: "wjbl-top", url: "https://www.wjbl.org/schedule_result/" },
-  { name: "redwave", url: "https://sports.jp.fujitsu.com/redwave/pages/nextgames" },
+  { name: "bt-all", url: "https://kawasaki-bravethunders.com/schedule/?year=2026&month=all" },
+  { name: "bc-all", url: "https://b-corsairs.com/schedule/?year=2026&month=all" },
+  { name: "bc-list-all", url: "https://b-corsairs.com/schedule/list/?year=2026&month=all" },
+  { name: "rw-p2", url: "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2" },
 ];
 
 function strip(html) {
