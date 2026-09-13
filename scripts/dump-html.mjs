@@ -10,10 +10,7 @@ const REQUEST_TIMEOUT_MS = 20000;
 const OUT_DIR = "tmp-html";
 
 const TARGETS = [
-  { name: "bt-all", url: "https://kawasaki-bravethunders.com/schedule/?year=2026&month=all" },
-  { name: "bc-all", url: "https://b-corsairs.com/schedule/?year=2026&month=all" },
-  { name: "bc-list-all", url: "https://b-corsairs.com/schedule/list/?year=2026&month=all" },
-  { name: "rw-p2", url: "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2" },
+  { name: "frontale", url: "https://www.frontale.co.jp/schedule/monthly.php" },
 ];
 
 function strip(html) {
