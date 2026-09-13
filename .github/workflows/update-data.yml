@@ -68,5 +68,7 @@ jobs:
             echo "変更なし"
           else
             git commit -m "chore: update schedule data"
+            # 実行中に別のpushがあると弾かれるため、取り込んでから送る
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
