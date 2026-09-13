@@ -61,8 +61,24 @@ node scripts/fetch/marinos.mjs data/marinos.json   # 単一チームを取得
 node scripts/build-events.mjs                      # data/events.json を再生成
 ```
 
+## GitHub Pagesでの公開
+
+`.github/workflows/deploy-pages.yml` が `site/index.html` と `data/` を `_site/` に
+まとめて公開する。データ更新ワークフローの完了後にも自動で再デプロイされる。
+
+初回のみ、リポジトリ設定でPagesを有効にする必要がある(GitHub ActionsのトークンではPagesサイトを
+新規作成できないため)。
+
+1. リポジトリの **Settings → Pages** を開く
+2. **Build and deployment → Source** を **GitHub Actions** に変更
+3. Actionsタブから「Deploy to GitHub Pages」を実行(以降はpushで自動)
+
+公開URLは `https://gokinaka.github.io/Yokohama_sports_calendar/` になる。
+リポジトリがprivateのままでも、公開されたページ自体は誰でも閲覧できる点に注意。
+なお、privateリポジトリでPagesを使うには有料プランが必要で、Freeプランの場合は
+リポジトリをpublicにする必要がある。
+
 ## 未対応・今後の課題
 
 1. 川崎フロンターレの取得(公式サイトが月別ページのため巡回が必要)
-2. GitHub Pagesの有効化(リポジトリ設定から`site/`を公開する)
-3. 各サイトの利用規約の確認。robots.txtは機械的に確認済みだが、規約本文は未確認
+2. 各サイトの利用規約の確認。robots.txtは機械的に確認済みだが、規約本文は未確認
