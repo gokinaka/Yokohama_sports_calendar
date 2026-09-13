@@ -14,8 +14,9 @@ function today() {
 }
 
 async function main() {
+  const generated = new Set([OUT_FILE, STATUS_FILE].map((p) => p.split("/").pop()));
   const files = (await readdir(DATA_DIR)).filter(
-    (f) => f.endsWith(".json") && f !== "events.json"
+    (f) => f.endsWith(".json") && !generated.has(f)
   );
   const all = [];
   const teams = [];
