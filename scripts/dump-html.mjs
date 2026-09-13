@@ -10,7 +10,8 @@ const REQUEST_TIMEOUT_MS = 20000;
 const OUT_DIR = "tmp-html";
 
 const TARGETS = [
-  { name: "frontale", url: "https://www.frontale.co.jp/schedule/monthly.php" },
+  { name: "frontale-all", url: "https://www.frontale.co.jp/schedule/all_games.html" },
+  { name: "frontale-m202610", url: "https://www.frontale.co.jp/schedule/monthly.php?m=202610" },
 ];
 
 function strip(html) {
