@@ -4,20 +4,6 @@
     "sport": "soccer",
     "league": "J2",
     "competition": "2026/27明治安田Ｊ２リーグ",
-    "date": "2026-08-16",
-    "weekday": "水",
-    "time": "19:00",
-    "homeAway": "home",
-    "venue": "ニッパツ三ツ沢球技場",
-    "opponent": "ベガルタ仙台",
-    "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-09-27T20:48:26.925Z"
-  },
-  {
-    "team": "横浜FC",
-    "sport": "soccer",
-    "league": "J2",
-    "competition": "2026/27明治安田Ｊ２リーグ",
     "date": "2026-10-10",
     "weekday": "土",
     "time": "14:00",
@@ -25,6 +11,34 @@
     "venue": "ニッパツ三ツ沢球技場",
     "opponent": "大分トリニータ",
     "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-09-27T20:48:26.925Z"
+    "fetchedAt": "2026-10-04T20:49:50.661Z"
+  },
+  {
+    "team": "横浜FC",
+    "sport": "soccer",
+    "league": "J2",
+    "competition": "2026/27明治安田Ｊ２リーグ",
+    "date": "2026-10-14",
+    "weekday": "水",
+    "time": "18:30",
+    "homeAway": "home",
+    "venue": "ニッパツ三ツ沢球技場",
+    "opponent": "浦和レッズ",
+    "sourceUrl": "https://yokohamafc.com/game/schedule/",
+    "fetchedAt": "2026-10-04T20:49:50.661Z"
+  },
+  {
+    "team": "横浜FC",
+    "sport": "soccer",
+    "league": "J2",
+    "competition": "2026/27明治安田Ｊ２リーグ",
+    "date": "2026-11-03",
+    "weekday": "火",
+    "time": "14:00",
+    "homeAway": "home",
+    "venue": "ニッパツ三ツ沢球技場",
+    "opponent": "ブラウブリッツ秋田",
+    "sourceUrl": "https://yokohamafc.com/game/schedule/",
+    "fetchedAt": "2026-10-04T20:49:50.661Z"
   }
 ]
