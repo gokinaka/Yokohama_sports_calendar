@@ -1,6 +1,6 @@
 // 各チームの試合日程フェッチャーで共通して使うユーティリティ。
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import { pathToFileURL } from "node:url";
 
@@ -92,19 +92,53 @@ export function makeEvent({
   };
 }
 
+// 取得元のHTML構造が変わるとパーサーは例外を出さずに0件を返す。それをそのまま
+// 書き出すとチームごと消えてしまい、ワークフローも成功扱いになって気付けない。
+// そのため0件・大幅減のときは書き出さずに失敗させ、前回のデータを残す。
+const SHRINK_RATIO = 0.5; // 前回の半分未満になったら異常とみなす
+const SHRINK_FLOOR = 10; // 前回がこの件数未満なら増減が激しいので判定しない
+
+async function readPrevious(path) {
+  try {
+    const parsed = JSON.parse(await readFile(path, "utf-8"));
+    return Array.isArray(parsed) ? parsed : null;
+  } catch {
+    return null; // 初回は前回ファイルが無い
+  }
+}
+
 export async function outputEvents(events, label) {
   const sorted = [...events].sort((a, b) =>
     a.date === b.date ? (a.time ?? "").localeCompare(b.time ?? "") : a.date.localeCompare(b.date)
   );
   const json = JSON.stringify(sorted, null, 2);
   const outPath = process.argv[2];
-  if (outPath) {
-    await mkdir(dirname(outPath), { recursive: true });
-    await writeFile(outPath, json + "\n", "utf-8");
-    console.log(`${label}: ${sorted.length}件を ${outPath} に書き出しました`);
-  } else {
+  if (!outPath) {
     console.log(json);
+    return;
   }
+
+  const previous = await readPrevious(outPath);
+  const skipGuard = process.env.SKIP_FETCH_GUARD === "1";
+  if (!skipGuard) {
+    const prevCount = previous?.length ?? 0;
+    if (sorted.length === 0) {
+      throw new Error(
+        `0件しか取得できませんでした(前回${prevCount}件)。取得元の構造が変わった可能性があるため ${outPath} は更新しません。` +
+          `意図した結果なら SKIP_FETCH_GUARD=1 を付けて再実行してください`
+      );
+    }
+    if (prevCount >= SHRINK_FLOOR && sorted.length < prevCount * SHRINK_RATIO) {
+      throw new Error(
+        `件数が${prevCount}件から${sorted.length}件に減りました。取得漏れの可能性があるため ${outPath} は更新しません。` +
+          `意図した結果なら SKIP_FETCH_GUARD=1 を付けて再実行してください`
+      );
+    }
+  }
+
+  await mkdir(dirname(outPath), { recursive: true });
+  await writeFile(outPath, json + "\n", "utf-8");
+  console.log(`${label}: ${sorted.length}件を ${outPath} に書き出しました`);
 }
 
 export function runFetcher(moduleUrl, label, fn) {

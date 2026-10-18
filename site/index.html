@@ -51,6 +51,9 @@
   .filters button[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
   #regionFilters button { font-weight: bold; }
   .filters button:disabled { opacity: 0.45; cursor: not-allowed; }
+  .muted { color: var(--muted); }
+  .warn { color: #c0392b; }
+  @media (prefers-color-scheme: dark) { .warn { color: #ff8a80; } }
   .panel {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -167,6 +170,14 @@
     }
   }
 
+  // その競技のチームが1件もデータを持っていない(=取得できていない)かどうか。
+  // 日程が未発表で0件なのか、取得に失敗して0件なのかを画面で区別するために使う。
+  function noDataFor(status, sport) {
+    if (!status) return false;
+    const rows = status.teams.filter((t) => t.sport === sport);
+    return rows.length > 0 && rows.every((t) => t.total === 0);
+  }
+
   function buildFilters(status) {
     // 対応している競技はすべて出す。今後の試合が無い競技も、
     // 対応していないのか日程未発表なのかが分かるように残す。
@@ -183,7 +194,9 @@
       btn.setAttribute("aria-pressed", "false");
       if (n === 0) {
         btn.disabled = true;
-        btn.title = "今シーズンの日程が未発表のため、表示できる試合がありません";
+        btn.title = noDataFor(status, sport)
+          ? "取得元のデータが取れていないため表示できません"
+          : "今シーズンの日程が未発表のため、表示できる試合がありません";
         box.appendChild(btn);
         continue;
       }
@@ -197,16 +210,34 @@
     }
   }
 
+  const STALE_DAYS = 14;
+
   function renderCoverage(status) {
+    const builtAt = new Date(status.builtAt);
     const rows = status.teams
       .map((t) => {
-        const note = t.upcoming === 0 ? `<span style="color:var(--muted)">今シーズンの日程が未発表</span>` : `${t.upcoming}試合`;
-        return `<tr><td>${SPORT_LABELS[t.sport] ?? t.sport}</td><td>${t.team}</td><td>${t.league}</td><td>${note}</td></tr>`;
+        let note;
+        if (t.total === 0) {
+          note = `<span class="warn">取得できていません</span>`;
+        } else if (t.upcoming === 0) {
+          note = `<span class="muted">今シーズンの日程が未発表</span>`;
+        } else {
+          note = `${t.upcoming}試合`;
+        }
+        // 取得が止まっているチームは最終取得日に印を付ける(前回のデータが残るため、
+        // 件数だけ見ると正常に見えてしまう)
+        let fetched = `<span class="muted">-</span>`;
+        if (t.fetchedAt) {
+          const days = Math.floor((builtAt - new Date(t.fetchedAt)) / 86400000);
+          const label = t.fetchedAt.slice(0, 10);
+          fetched = days >= STALE_DAYS ? `<span class="warn">${label} (${days}日前)</span>` : label;
+        }
+        return `<tr><td>${SPORT_LABELS[t.sport] ?? t.sport}</td><td>${t.team}</td><td>${t.league}</td><td>${note}</td><td class="date">${fetched}</td></tr>`;
       })
       .join("");
     document.getElementById("coverage").innerHTML = `<p class="month">対応チーム(${status.teams.length}チーム)</p>
       <div class="table-scroll"><table>
-        <thead><tr><th>競技</th><th>チーム</th><th>リーグ</th><th>今後の試合</th></tr></thead>
+        <thead><tr><th>競技</th><th>チーム</th><th>リーグ</th><th>今後の試合</th><th>最終取得</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>`;
   }

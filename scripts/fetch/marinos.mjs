@@ -7,15 +7,12 @@
 //
 // 使い方: node scripts/fetch/marinos.mjs [出力先パス(省略時は標準出力)]
 
-import { writeFile, mkdir } from "node:fs/promises";
-import { dirname } from "node:path";
+import { fetchHtml, createYearTracker, isoDate, makeEvent, runFetcher } from "../lib/common.mjs";
 
 const SOURCE_URL = "https://www.f-marinos.com/matches/schedule";
 const TEAM = "横浜F・マリノス";
 const SPORT = "soccer";
 const LEAGUE = "J1";
-const USER_AGENT =
-  "YokohamaSportsCalendarBot/0.1 (+https://github.com/gokinaka/Yokohama_sports_calendar)";
 
 function extractFirst(block, re) {
   const m = block.match(re);
@@ -28,17 +25,11 @@ function parseMatchBlocks(html) {
   return parts;
 }
 
-function toIsoDate(month, day, year) {
-  const mm = String(month).padStart(2, "0");
-  const dd = String(day).padStart(2, "0");
-  return `${year}-${mm}-${dd}`;
-}
-
-function parseEvents(html, { now = new Date() } = {}) {
+export function parseEvents(html, { now = new Date() } = {}) {
   const blocks = parseMatchBlocks(html);
   const events = [];
-  let year = now.getFullYear();
-  let prevMonth = null;
+  // シーズンが年をまたぐため、月が前の試合より小さくなったら年が変わったとみなす
+  const yearFor = createYearTracker(now.getFullYear());
 
   for (const block of blocks) {
     const homeAwayRaw = extractFirst(block, /match-header-tag is-(home|away)"/);
@@ -58,50 +49,24 @@ function parseEvents(html, { now = new Date() } = {}) {
     const day = Number(dayStr);
     if (!month || !day) continue;
 
-    // シーズンが年をまたぐため、月が前の試合より小さくなったら年が変わったとみなす
-    if (prevMonth !== null && month < prevMonth) {
-      year += 1;
-    }
-    prevMonth = month;
-
-    events.push({
-      team: TEAM,
-      sport: SPORT,
-      league: LEAGUE,
-      competition: competition || null,
-      date: toIsoDate(month, day, year),
-      weekday: weekday || null,
-      time: time || null,
-      homeAway: homeAwayRaw || null,
-      venue: venue || null,
-      opponent: opponent || null,
-      sourceUrl: SOURCE_URL,
-      fetchedAt: now.toISOString(),
-    });
+    events.push(
+      makeEvent({
+        team: TEAM,
+        sport: SPORT,
+        league: LEAGUE,
+        competition: competition || null,
+        date: isoDate(yearFor(month), month, day),
+        weekday: weekday || null,
+        time: time || null,
+        homeAway: homeAwayRaw || null,
+        venue: venue || null,
+        opponent: opponent || null,
+        sourceUrl: SOURCE_URL,
+        fetchedAt: now.toISOString(),
+      })
+    );
   }
   return events;
 }
 
-async function main() {
-  const res = await fetch(SOURCE_URL, { headers: { "User-Agent": USER_AGENT } });
-  if (!res.ok) {
-    throw new Error(`取得失敗: HTTP ${res.status}`);
-  }
-  const html = await res.text();
-  const events = parseEvents(html);
-
-  const json = JSON.stringify(events, null, 2);
-  const outPath = process.argv[2];
-  if (outPath) {
-    await mkdir(dirname(outPath), { recursive: true });
-    await writeFile(outPath, json + "\n", "utf-8");
-    console.log(`${events.length}件の試合情報を ${outPath} に書き出しました。`);
-  } else {
-    console.log(json);
-  }
-}
-
-main().catch((err) => {
-  console.error(err);
-  process.exitCode = 1;
-});
+runFetcher(import.meta.url, TEAM, async () => parseEvents(await fetchHtml(SOURCE_URL)));

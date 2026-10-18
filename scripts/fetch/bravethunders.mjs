@@ -9,7 +9,7 @@ runFetcher(import.meta.url, TEAM, () =>
   fetchSchedule({
     origin: "https://kawasaki-bravethunders.com",
     team: TEAM,
-    league: "B.LEAGUE",
+    league: "B.LEAGUE PREMIER",
     shortName: "川崎",
   })
 );

@@ -2,21 +2,7 @@
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
-    "competition": "レギュラーシーズン",
-    "date": "2026-10-16",
-    "weekday": "金",
-    "time": "19:05",
-    "homeAway": "home",
-    "venue": "東急ドレッセとどろきアリーナ",
-    "opponent": "茨城",
-    "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
-  },
-  {
-    "team": "川崎ブレイブサンダース",
-    "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-10-19",
     "weekday": "月",
@@ -25,12 +11,12 @@
     "venue": "バンダイナムコアリーナ松江(松江市総合体育館)",
     "opponent": "島根",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-10-21",
     "weekday": "水",
@@ -39,12 +25,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "大阪",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-10-24",
     "weekday": "土",
@@ -53,12 +39,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-10-26",
     "weekday": "月",
@@ -67,12 +53,12 @@
     "venue": "とちぎん・ブレックスアリーナ宇都宮",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-10-31",
     "weekday": "土",
@@ -81,12 +67,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-01",
     "weekday": "日",
@@ -95,12 +81,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-06",
     "weekday": "金",
@@ -109,12 +95,12 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-09",
     "weekday": "月",
@@ -123,12 +109,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "A千葉",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-11",
     "weekday": "水",
@@ -137,12 +123,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "島根",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-13",
     "weekday": "金",
@@ -151,12 +137,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-16",
     "weekday": "月",
@@ -165,12 +151,12 @@
     "venue": "横浜BUNTAI",
     "opponent": "横浜BC",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-11-18",
     "weekday": "水",
@@ -179,12 +165,12 @@
     "venue": "GLION ARENA KOBE",
     "opponent": "神戸",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-06",
     "weekday": "日",
@@ -193,12 +179,12 @@
     "venue": "YKK APアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-12",
     "weekday": "土",
@@ -207,12 +193,12 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-13",
     "weekday": "日",
@@ -221,12 +207,12 @@
     "venue": "アダストリアみとアリーナ",
     "opponent": "茨城",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-19",
     "weekday": "土",
@@ -235,12 +221,12 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-20",
     "weekday": "日",
@@ -249,12 +235,12 @@
     "venue": "北海きたえーる",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-26",
     "weekday": "土",
@@ -263,12 +249,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-27",
     "weekday": "日",
@@ -277,12 +263,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2026-12-30",
     "weekday": "水",
@@ -291,12 +277,12 @@
     "venue": "ホワイトリング",
     "opponent": "信州",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-01",
     "weekday": "金",
@@ -305,12 +291,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-03",
     "weekday": "日",
@@ -319,12 +305,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "秋田",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-22",
     "weekday": "金",
@@ -333,12 +319,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "神戸",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-25",
     "weekday": "月",
@@ -347,12 +333,12 @@
     "venue": "LaLa arena TOKYO-BAY",
     "opponent": "千葉J",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-27",
     "weekday": "水",
@@ -361,12 +347,12 @@
     "venue": "広島グリーンアリーナ",
     "opponent": "広島",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-30",
     "weekday": "土",
@@ -375,12 +361,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-01-31",
     "weekday": "日",
@@ -389,12 +375,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "宇都宮",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-02-03",
     "weekday": "水",
@@ -403,12 +389,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "琉球",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-02-05",
     "weekday": "金",
@@ -417,12 +403,12 @@
     "venue": "ハピネスアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-02-07",
     "weekday": "日",
@@ -431,12 +417,12 @@
     "venue": "ハピネスアリーナ",
     "opponent": "長崎",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-02-11",
     "weekday": "木",
@@ -445,12 +431,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-02-15",
     "weekday": "月",
@@ -459,12 +445,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "京都",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-02-17",
     "weekday": "水",
@@ -473,12 +459,12 @@
     "venue": "SAGAアリーナ",
     "opponent": "佐賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-06",
     "weekday": "土",
@@ -487,12 +473,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-07",
     "weekday": "日",
@@ -501,12 +487,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-13",
     "weekday": "土",
@@ -515,12 +501,12 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-14",
     "weekday": "日",
@@ -529,12 +515,12 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "A東京",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-17",
     "weekday": "水",
@@ -543,12 +529,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "北海道",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-19",
     "weekday": "金",
@@ -557,12 +543,12 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-21",
     "weekday": "日",
@@ -571,12 +557,12 @@
     "venue": "ゼビオアリーナ仙台",
     "opponent": "仙台",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-03-24",
     "weekday": "水",
@@ -585,12 +571,12 @@
     "venue": "滋賀ダイハツアリーナ",
     "opponent": "滋賀",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-01",
     "weekday": "木",
@@ -599,12 +585,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-04",
     "weekday": "日",
@@ -613,12 +599,12 @@
     "venue": "ホワイトリング",
     "opponent": "信州",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-06",
     "weekday": "火",
@@ -627,12 +613,12 @@
     "venue": "豊橋市総合体育館",
     "opponent": "三遠",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-09",
     "weekday": "金",
@@ -641,12 +627,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-11",
     "weekday": "日",
@@ -655,12 +641,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "富山",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-13",
     "weekday": "火",
@@ -669,12 +655,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "広島",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-20",
     "weekday": "火",
@@ -683,12 +669,12 @@
     "venue": "沖縄サントリーアリーナ",
     "opponent": "琉球",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-23",
     "weekday": "金",
@@ -697,12 +683,12 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-25",
     "weekday": "日",
@@ -711,12 +697,12 @@
     "venue": "TOYOTA ARENA TOKYO",
     "opponent": "東京SR",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-28",
     "weekday": "水",
@@ -725,12 +711,12 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "大阪",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-04-30",
     "weekday": "金",
@@ -739,12 +725,12 @@
     "venue": "オープンハウスアリーナ太田",
     "opponent": "群馬",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   },
   {
     "team": "川崎ブレイブサンダース",
     "sport": "basketball",
-    "league": "B.LEAGUE",
+    "league": "B.LEAGUE PREMIER",
     "competition": "レギュラーシーズン",
     "date": "2027-05-02",
     "weekday": "日",
@@ -753,6 +739,6 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "三河",
     "sourceUrl": "https://kawasaki-bravethunders.com/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-10-11T21:26:23.871Z"
+    "fetchedAt": "2026-10-18T09:58:37.240Z"
   }
 ]

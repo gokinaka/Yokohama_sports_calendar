@@ -11,7 +11,7 @@
     "venue": "東京D",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -25,7 +25,7 @@
     "venue": "横浜",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -39,7 +39,7 @@
     "venue": "横浜",
     "opponent": null,
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -53,7 +53,7 @@
     "venue": "東京ドーム",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -67,7 +67,7 @@
     "venue": "東京ドーム",
     "opponent": "巨人",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -81,7 +81,7 @@
     "venue": "甲子園",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -95,7 +95,7 @@
     "venue": "甲子園",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -109,7 +109,7 @@
     "venue": "甲子園",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
@@ -123,62 +123,104 @@
     "venue": "甲子園",
     "opponent": "阪神",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
     "sport": "baseball",
     "league": "NPB",
     "competition": null,
-    "date": "2026-10-18",
+    "date": "2026-10-24",
+    "weekday": "土",
+    "time": "18:30",
+    "homeAway": "home",
+    "venue": "横浜",
+    "opponent": "福岡ソフトバンク",
+    "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
+  },
+  {
+    "team": "横浜DeNAベイスターズ",
+    "sport": "baseball",
+    "league": "NPB",
+    "competition": null,
+    "date": "2026-10-25",
     "weekday": "日",
-    "time": "14:00",
-    "homeAway": "away",
-    "venue": "甲子園",
-    "opponent": "阪神",
-    "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
-  },
-  {
-    "team": "横浜DeNAベイスターズ",
-    "sport": "baseball",
-    "league": "NPB",
-    "competition": null,
-    "date": "2026-10-19",
-    "weekday": "月",
     "time": "18:00",
-    "homeAway": "away",
-    "venue": "甲子園",
-    "opponent": "阪神",
+    "homeAway": "home",
+    "venue": "横浜",
+    "opponent": "福岡ソフトバンク",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
     "sport": "baseball",
     "league": "NPB",
     "competition": null,
-    "date": "2026-10-20",
+    "date": "2026-10-27",
     "weekday": "火",
     "time": "18:00",
     "homeAway": "away",
-    "venue": "甲子園",
-    "opponent": "阪神",
+    "venue": "みずほPayPay",
+    "opponent": "福岡ソフトバンク",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   },
   {
     "team": "横浜DeNAベイスターズ",
     "sport": "baseball",
     "league": "NPB",
     "competition": null,
-    "date": "2026-10-21",
+    "date": "2026-10-28",
     "weekday": "水",
     "time": "18:00",
     "homeAway": "away",
-    "venue": "甲子園",
-    "opponent": "阪神",
+    "venue": "みずほPayPay",
+    "opponent": "福岡ソフトバンク",
     "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
-    "fetchedAt": "2026-10-11T21:26:08.714Z"
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
+  },
+  {
+    "team": "横浜DeNAベイスターズ",
+    "sport": "baseball",
+    "league": "NPB",
+    "competition": null,
+    "date": "2026-10-29",
+    "weekday": "木",
+    "time": "18:00",
+    "homeAway": "away",
+    "venue": "みずほPayPay",
+    "opponent": "福岡ソフトバンク",
+    "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
+  },
+  {
+    "team": "横浜DeNAベイスターズ",
+    "sport": "baseball",
+    "league": "NPB",
+    "competition": null,
+    "date": "2026-10-31",
+    "weekday": "土",
+    "time": "18:30",
+    "homeAway": "home",
+    "venue": "横浜",
+    "opponent": "福岡ソフトバンク",
+    "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/10",
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
+  },
+  {
+    "team": "横浜DeNAベイスターズ",
+    "sport": "baseball",
+    "league": "NPB",
+    "competition": null,
+    "date": "2026-11-01",
+    "weekday": "日",
+    "time": "18:00",
+    "homeAway": "home",
+    "venue": "横浜",
+    "opponent": "福岡ソフトバンク",
+    "sourceUrl": "https://sp.baystars.co.jp/game/schedule/2026/11",
+    "fetchedAt": "2026-10-18T09:58:27.281Z"
   }
 ]

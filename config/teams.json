@@ -1,0 +1,18 @@
+{
+  "_comment": "カレンダーの対応チーム一覧。data/events.json と data/status.json はこの順で作られる。取得に失敗しているチームも一覧に残したいので、チームの定義はデータファイルではなくここを正とする。",
+  "teams": [
+    { "file": "marinos.json", "team": "横浜F・マリノス", "sport": "soccer", "league": "J1", "fetcher": "scripts/fetch/marinos.mjs" },
+    { "file": "frontale.json", "team": "川崎フロンターレ", "sport": "soccer", "league": "J1", "fetcher": "scripts/fetch/frontale.mjs" },
+    { "file": "yokohamafc.json", "team": "横浜FC", "sport": "soccer", "league": "J2", "fetcher": "scripts/fetch/yokohamafc.mjs" },
+    { "file": "bellmare.json", "team": "湘南ベルマーレ", "sport": "soccer", "league": "J2", "fetcher": "scripts/fetch/bellmare.mjs" },
+    { "file": "baystars.json", "team": "横浜DeNAベイスターズ", "sport": "baseball", "league": "NPB", "fetcher": "scripts/fetch/baystars.mjs" },
+    { "file": "necrockets.json", "team": "NECレッドロケッツ川崎", "sport": "volleyball", "league": "SVリーグ", "fetcher": "scripts/fetch/necrockets.mjs" },
+    { "file": "kinoshita-abyell.json", "team": "木下アビエル神奈川", "sport": "tabletennis", "league": "ノジマTリーグ", "fetcher": "scripts/fetch/kinoshita-abyell.mjs" },
+    { "file": "earthfriends.json", "team": "アースフレンズBM東京・神奈川", "sport": "handball", "league": "リーグH", "fetcher": "scripts/fetch/earthfriends.mjs" },
+    { "file": "canon-eagles.json", "team": "横浜キヤノンイーグルス", "sport": "rugby", "league": "リーグワン", "fetcher": "scripts/fetch/canon-eagles.mjs" },
+    { "file": "bcorsairs.json", "team": "横浜ビー・コルセアーズ", "sport": "basketball", "league": "B.LEAGUE PREMIER", "fetcher": "scripts/fetch/bcorsairs.mjs" },
+    { "file": "bravethunders.json", "team": "川崎ブレイブサンダース", "sport": "basketball", "league": "B.LEAGUE PREMIER", "fetcher": "scripts/fetch/bravethunders.mjs" },
+    { "file": "yokohama-excellence.json", "team": "横浜エクセレンス", "sport": "basketball", "league": "B.LEAGUE ONE", "fetcher": "scripts/fetch/yokohama-excellence.mjs" },
+    { "file": "redwave.json", "team": "富士通レッドウェーブ", "sport": "basketball", "league": "Wリーグ", "fetcher": "scripts/fetch/redwave.mjs" }
+  ]
+}

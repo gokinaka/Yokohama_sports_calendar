@@ -7,7 +7,7 @@
 
 ## 対応状況
 
-7競技12チームの日程を各公式サイト/リーグ公式サイトから週1回自動取得している。
+7競技13チームの日程を各公式サイト/リーグ公式サイトから週1回自動取得している。
 
 | 競技 | チーム | リーグ | 取得元 |
 |---|---|---|---|
@@ -19,16 +19,33 @@
 | バレーボール | NECレッドロケッツ川崎 | SVリーグ | 球団公式 |
 | 卓球 | 木下アビエル神奈川 | ノジマTリーグ | Tリーグ公式 |
 | ハンドボール | アースフレンズBM東京・神奈川 | リーグH | リーグH公式 |
-| バスケ | 横浜ビー・コルセアーズ | B.LEAGUE | 球団公式(シーズン一覧) |
-| バスケ | 川崎ブレイブサンダース | B.LEAGUE | 球団公式(シーズン一覧) |
+| バスケ | 横浜ビー・コルセアーズ | B.LEAGUE PREMIER | 球団公式(シーズン一覧) |
+| バスケ | 川崎ブレイブサンダース | B.LEAGUE PREMIER | 球団公式(シーズン一覧) |
+| バスケ | 横浜エクセレンス | B.LEAGUE ONE | 球団公式(シーズン一覧) |
 | バスケ | 富士通レッドウェーブ | Wリーグ | 球団公式(ページ送り) |
-| ラグビー | 横浜キヤノンイーグルス | リーグワン | リーグワン公式 |
+| ラグビー | 横浜キヤノンイーグルス | リーグワン | リーグワン公式(日程・結果) |
 
-ラグビーは2026-27シーズンの日程がまだ公開されていないため、現時点では表示される試合がない。
-日程が公開されれば自動で反映される。
+対応チームの定義は [config/teams.json](config/teams.json) が正。
+ここに追記しないと `data/events.json` にも `data/status.json` にも入らない。
 
 富士通レッドウェーブはページにホーム/アウェイの表記が無いため、推測せず未設定にしている。
 ドッジボールはプロリーグが存在しないため対象外。詳細は [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md)。
+
+## 取得できなくなったときの検知
+
+スクレイピングは取得元のHTMLが変わると、例外を出さずに0件を返す形で壊れる。
+実際に2026-10にラグビーがこれで壊れ、ワークフローは成功したままデータだけが消えた。
+対策として:
+
+- 取得件数が**0件**、または**前回の半分未満**になったら、ファイルを更新せずにそのチームを失敗させる
+  (`scripts/lib/common.mjs`)。前回のデータが残るので、カレンダーからチームが消えることはない
+- 失敗したチームがあれば `scripts/update-all.mjs` が最後に非ゼロ終了し、ジョブが赤くなる
+  (以前はチームごとに `continue-on-error` のstepだったため、失敗してもジョブは緑のままだった)
+- 対応チーム一覧は `config/teams.json` から作るので、取得できていないチームも
+  画面の「対応チーム」表に残り、「取得できていません」と表示される
+
+シーズンオフなどで本当に0件・大幅減が正しい場合は、確認のうえ
+`SKIP_FETCH_GUARD=1 node scripts/fetch/<チーム>.mjs data/<チーム>.json` で上書きする。
 
 ## 会場の所在地フィルタ
 
@@ -55,21 +72,28 @@
 ## 仕組み
 
 ```
-GitHub Actions (毎週月曜 JST 3:00)
-  └─ scripts/fetch/*.mjs    各チームの日程を取得 → data/<チーム>.json
+GitHub Actions (毎週日曜 UTC 18:00 = 月曜 JST 3:00。GitHubの都合で数時間遅れる)
+  └─ scripts/update-all.mjs    config/teams.json のフェッチャーを順に実行
+       └─ scripts/fetch/*.mjs  各チームの日程を取得 → data/<チーム>.json
   └─ scripts/build-events.mjs  統合して今後の試合だけを data/events.json に出力
                                あわせて取得状況を data/status.json に出力
   └─ 変更があれば自動コミット
 
-site/index.html  data/events.json を読み込んでカレンダー表示(GitHub Pages想定)
+site/index.html  data/events.json を読み込んでカレンダー表示(GitHub Pages)
 ```
+
+cronの時刻は保証されておらず、実績では2〜3時間遅れて実行されている。
+また、リポジトリへの変更が60日間ないとGitHubがスケジュールを自動停止する。
 
 ## ディレクトリ構成
 
 ```
-config/sources.json          対象チームとデータソース候補
+config/teams.json            対応チーム一覧(これが正)
+config/sources.json          データソース候補(調査時のメモ)
+config/venues.json           会場の所在地判定ルール
 scripts/lib/common.mjs       フェッチャー共通処理
 scripts/fetch/*.mjs          チームごとの取得スクリプト
+scripts/update-all.mjs       全チームをまとめて取得
 scripts/build-events.mjs     データ統合
 scripts/inspect-sources.mjs  データソースの取得可否を調べる調査用
 scripts/probe.mjs            ページ構造を調べる調査用
@@ -83,7 +107,9 @@ docs/DATA_SOURCES.md         データソース調査結果
 
 ```bash
 node scripts/fetch/marinos.mjs data/marinos.json   # 単一チームを取得
+node scripts/update-all.mjs                        # 全チームを取得
 node scripts/build-events.mjs                      # data/events.json を再生成
+node scripts/build-site.mjs                        # _site/ を作成
 ```
 
 ## GitHub Pagesでの公開
@@ -102,4 +128,4 @@ node scripts/build-events.mjs                      # data/events.json を再生�
 ## 未対応・今後の課題
 
 1. 各サイトの利用規約の確認。robots.txtは機械的に確認済みだが、規約本文は未確認
-2. 横浜FCは公式サイトが直近数試合しか掲載しないため、取得できる試合数が少ない
+2. 横浜FCは公式サイトが直近数試合しか掲載しないため、取得できる試合数が少ない(現在3件)

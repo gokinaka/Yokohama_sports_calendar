@@ -9,7 +9,7 @@ runFetcher(import.meta.url, TEAM, () =>
   fetchSchedule({
     origin: "https://b-corsairs.com",
     team: TEAM,
-    league: "B.LEAGUE",
+    league: "B.LEAGUE PREMIER",
     shortName: "横浜BC",
   })
 );

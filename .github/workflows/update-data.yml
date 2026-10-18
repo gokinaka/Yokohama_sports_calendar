@@ -1,11 +1,12 @@
 name: Update schedule data
 
 # 各チームの試合日程を取得し、data/ 配下のJSONを更新してコミットする。
-# 1チームの取得が失敗しても他のチームは更新できるよう、各stepを continue-on-error にしている。
+# 取得対象は config/teams.json を正とし、scripts/update-all.mjs が順番に実行する。
+# 1チームの失敗では止まらず、失敗したチームがあればジョブ全体を失敗させる。
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * 0" # 毎週月曜 JST 3:00 (日曜 UTC 18:00)
+    - cron: "0 18 * * 0" # 毎週月曜 JST 3:00 (日曜 UTC 18:00)。GitHubの都合で数時間遅れることがある
 
 permissions:
   contents: write
@@ -19,47 +20,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: 横浜F・マリノス (J1)
-        continue-on-error: true
-        run: node scripts/fetch/marinos.mjs data/marinos.json
-      - name: 横浜FC (J2)
-        continue-on-error: true
-        run: node scripts/fetch/yokohamafc.mjs data/yokohamafc.json
-      - name: 川崎フロンターレ (J1)
-        continue-on-error: true
-        run: node scripts/fetch/frontale.mjs data/frontale.json
-      - name: 湘南ベルマーレ (J2)
-        continue-on-error: true
-        run: node scripts/fetch/bellmare.mjs data/bellmare.json
-      - name: 横浜DeNAベイスターズ (NPB)
-        continue-on-error: true
-        run: node scripts/fetch/baystars.mjs data/baystars.json
-      - name: NECレッドロケッツ川崎 (SVリーグ)
-        continue-on-error: true
-        run: node scripts/fetch/necrockets.mjs data/necrockets.json
-      - name: 木下アビエル神奈川 (Tリーグ)
-        continue-on-error: true
-        run: node scripts/fetch/kinoshita-abyell.mjs data/kinoshita-abyell.json
-      - name: アースフレンズBM東京・神奈川 (リーグH)
-        continue-on-error: true
-        run: node scripts/fetch/earthfriends.mjs data/earthfriends.json
-      - name: 横浜キヤノンイーグルス (リーグワン)
-        continue-on-error: true
-        run: node scripts/fetch/canon-eagles.mjs data/canon-eagles.json
-      - name: 横浜ビー・コルセアーズ (B.LEAGUE)
-        continue-on-error: true
-        run: node scripts/fetch/bcorsairs.mjs data/bcorsairs.json
-      - name: 川崎ブレイブサンダース (B.LEAGUE)
-        continue-on-error: true
-        run: node scripts/fetch/bravethunders.mjs data/bravethunders.json
-      - name: 富士通レッドウェーブ (Wリーグ)
-        continue-on-error: true
-        run: node scripts/fetch/redwave.mjs data/redwave.json
+      - name: 各チームの日程を取得
+        id: fetch
+        run: node scripts/update-all.mjs
 
+      # 一部のチームが失敗しても、取得できた分はカレンダーに反映する
       - name: カレンダー用データを統合
+        if: always()
         run: node scripts/build-events.mjs
 
       - name: Commit changes if any
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
