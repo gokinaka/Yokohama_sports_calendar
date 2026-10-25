@@ -4,34 +4,6 @@
     "sport": "volleyball",
     "league": "SVリーグ",
     "competition": "レギュラーシーズン",
-    "date": "2026-10-24",
-    "weekday": "土",
-    "time": "14:05",
-    "homeAway": "away",
-    "venue": "ひたちなか市総合運動公園総合体育館【ユニ：WHITE(RED)】",
-    "opponent": "Astemoリヴァーレ茨城",
-    "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
-  },
-  {
-    "team": "NECレッドロケッツ川崎",
-    "sport": "volleyball",
-    "league": "SVリーグ",
-    "competition": "レギュラーシーズン",
-    "date": "2026-10-25",
-    "weekday": "日",
-    "time": "14:05",
-    "homeAway": "away",
-    "venue": "ひたちなか市総合運動公園総合体育館【ユニ：WHITE(RED)】",
-    "opponent": "Astemoリヴァーレ茨城",
-    "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
-  },
-  {
-    "team": "NECレッドロケッツ川崎",
-    "sport": "volleyball",
-    "league": "SVリーグ",
-    "competition": "レギュラーシーズン",
     "date": "2026-10-30",
     "weekday": "金",
     "time": "18:35",
@@ -39,7 +11,7 @@
     "venue": "カルッツかわさき【ユニ：RED(WHITE)】",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -53,7 +25,7 @@
     "venue": "カルッツかわさき【ユニ：RED(WHITE)】",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -67,7 +39,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -81,7 +53,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -95,7 +67,7 @@
     "venue": "山陽ふれあい公園総合体育館【ユニ：RED(WHITE)】",
     "opponent": "岡山シーガルズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -109,7 +81,7 @@
     "venue": "山陽ふれあい公園総合体育館【ユニ：WHITE(RED)】",
     "opponent": "岡山シーガルズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -123,7 +95,7 @@
     "venue": "ダイセンアリーナ西尾【ユニ：WHITE(RED)】",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -137,7 +109,7 @@
     "venue": "ダイセンアリーナ西尾【ユニ：WHITE(RED)】",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -151,7 +123,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "PFUブルーキャッツ石川かほく",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -165,7 +137,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "PFUブルーキャッツ石川かほく",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -179,7 +151,7 @@
     "venue": "Wlamir Marques Multi-Sports Gymnasium：ブラジル／サンパウロ",
     "opponent": "Eczacıbaşı Peron Istanbul",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -193,7 +165,7 @@
     "venue": "Wlamir Marques Multi-Sports Gymnasium：ブラジル／サンパウロ",
     "opponent": "Club Alianza Lima",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -207,7 +179,7 @@
     "venue": "Wlamir Marques Multi-Sports Gymnasium：ブラジル／サンパウロ",
     "opponent": "Osasco São Cristóvão Saúde ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -221,7 +193,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "Astemoリヴァーレ茨城",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -235,7 +207,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：WHITE(RED)】",
     "opponent": "Astemoリヴァーレ茨城",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -249,7 +221,7 @@
     "venue": "ヤマト市民体育館前橋【ユニ：RED(WHITE)】",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -263,7 +235,7 @@
     "venue": "ヤマト市民体育館前橋【ユニ：RED(WHITE)】",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -277,7 +249,7 @@
     "venue": "INPEX酒田アリーナ【ユニ：WHITE(RED)】",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -291,7 +263,7 @@
     "venue": "INPEX酒田アリーナ【ユニ：WHITE(RED)】",
     "opponent": "アランマーレ秋田庄内",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -305,7 +277,7 @@
     "venue": "SAGAアリーナ【ユニ：RED(WHITE)】",
     "opponent": "SAGA久光スプリングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -319,7 +291,7 @@
     "venue": "SAGAアリーナ【ユニ：RED(WHITE)】",
     "opponent": "SAGA久光スプリングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -333,7 +305,7 @@
     "venue": "EBARA WAVE アリーナおおた【ユニ：RED(WHITE)】",
     "opponent": "大阪マーヴェラス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -347,7 +319,7 @@
     "venue": "EBARA WAVE アリーナおおた【ユニ：RED(WHITE)】",
     "opponent": "大阪マーヴェラス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -361,7 +333,7 @@
     "venue": "黒部市総合体育センター【ユニ：RED(WHITE)】",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -375,7 +347,7 @@
     "venue": "黒部市総合体育センター【ユニ：RED(WHITE)】",
     "opponent": "KUROBEアクアフェアリーズ富山",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -389,7 +361,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -403,7 +375,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "デンソーエアリービーズ",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -417,7 +389,7 @@
     "venue": "深谷ビッグタートル【ユニ：RED(WHITE)】",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -431,7 +403,7 @@
     "venue": "深谷ビッグタートル【ユニ：WHITE(RED)】",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -445,7 +417,7 @@
     "venue": "パークアリーナ小牧【ユニ：WHITE(RED)】",
     "opponent": "アリーザ愛知",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -459,7 +431,7 @@
     "venue": "パークアリーナ小牧【ユニ：WHITE(RED)】",
     "opponent": "アリーザ愛知",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -473,7 +445,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -487,7 +459,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：WHITE(RED)】",
     "opponent": "群馬グリーンウイングス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -501,7 +473,7 @@
     "venue": "草津市滋賀トヨタアリーナ【ユニ：RED(WHITE)】",
     "opponent": "東レアローズ滋賀",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -515,7 +487,7 @@
     "venue": "草津市滋賀トヨタアリーナ【ユニ：RED(WHITE)】",
     "opponent": "東レアローズ滋賀",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -529,7 +501,7 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   },
   {
     "team": "NECレッドロケッツ川崎",
@@ -543,6 +515,6 @@
     "venue": "東急ドレッセとどろきアリーナ【ユニ：RED(WHITE)】",
     "opponent": "埼玉上尾メディックス",
     "sourceUrl": "https://red.necrockets.net/match/schedule/",
-    "fetchedAt": "2026-10-18T20:01:59.744Z"
+    "fetchedAt": "2026-10-25T20:20:37.072Z"
   }
 ]

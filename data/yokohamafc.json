@@ -11,7 +11,7 @@
     "venue": "ニッパツ三ツ沢球技場",
     "opponent": "ベガルタ仙台",
     "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-10-18T20:01:51.917Z"
+    "fetchedAt": "2026-10-25T20:20:28.500Z"
   },
   {
     "team": "横浜FC",
@@ -25,7 +25,7 @@
     "venue": "ニッパツ三ツ沢球技場",
     "opponent": "ブラウブリッツ秋田",
     "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-10-18T20:01:51.917Z"
+    "fetchedAt": "2026-10-25T20:20:28.500Z"
   },
   {
     "team": "横浜FC",
@@ -39,6 +39,20 @@
     "venue": "ニッパツ三ツ沢球技場",
     "opponent": "藤枝ＭＹＦＣ",
     "sourceUrl": "https://yokohamafc.com/game/schedule/",
-    "fetchedAt": "2026-10-18T20:01:51.917Z"
+    "fetchedAt": "2026-10-25T20:20:28.500Z"
+  },
+  {
+    "team": "横浜FC",
+    "sport": "soccer",
+    "league": "J2",
+    "competition": "2026/27明治安田Ｊ２リーグ",
+    "date": "2026-11-21",
+    "weekday": "土",
+    "time": "14:00",
+    "homeAway": "home",
+    "venue": "ニッパツ三ツ沢球技場",
+    "opponent": "北海道コンサドーレ札幌",
+    "sourceUrl": "https://yokohamafc.com/game/schedule/",
+    "fetchedAt": "2026-10-25T20:20:28.500Z"
   }
 ]
