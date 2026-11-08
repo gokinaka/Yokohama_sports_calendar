@@ -3,34 +3,6 @@
     "team": "富士通レッドウェーブ",
     "sport": "basketball",
     "league": "Wリーグ",
-    "competition": "大樹生命Wリーグ2026-27 レギュラーシーズン 第2週 GAME1",
-    "date": "2026-11-07",
-    "weekday": "土",
-    "time": "14:00",
-    "homeAway": null,
-    "venue": "カルッツかわさき",
-    "opponent": "ＥＮＥＯＳサンフラワーズ",
-    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
-  },
-  {
-    "team": "富士通レッドウェーブ",
-    "sport": "basketball",
-    "league": "Wリーグ",
-    "competition": "大樹生命Wリーグ2026-27 レギュラーシーズン 第2週 GAME2",
-    "date": "2026-11-08",
-    "weekday": "日",
-    "time": "14:00",
-    "homeAway": null,
-    "venue": "カルッツかわさき",
-    "opponent": "ＥＮＥＯＳサンフラワーズ",
-    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
-  },
-  {
-    "team": "富士通レッドウェーブ",
-    "sport": "basketball",
-    "league": "Wリーグ",
     "competition": null,
     "date": "2026-11-14",
     "weekday": "土",
@@ -39,7 +11,7 @@
     "venue": "横浜武道館",
     "opponent": "トヨタ紡織 サンシャインラビッツ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -53,7 +25,7 @@
     "venue": "横浜武道館",
     "opponent": "トヨタ紡織 サンシャインラビッツ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -67,7 +39,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -81,7 +53,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -95,7 +67,7 @@
     "venue": "トッケイセキュリティ 平塚総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -109,7 +81,7 @@
     "venue": "トッケイセキュリティ 平塚総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -123,7 +95,7 @@
     "venue": "名古屋金城ふ頭アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -137,7 +109,7 @@
     "venue": "名古屋金城ふ頭アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -151,7 +123,7 @@
     "venue": "ほねごりスカイアリーナ（市民体育館）",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -165,7 +137,7 @@
     "venue": "ほねごりスカイアリーナ（市民体育館）",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -178,8 +150,8 @@
     "homeAway": null,
     "venue": "大浜だいしんアリーナ",
     "opponent": "デンソー アイリス",
-    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -192,8 +164,8 @@
     "homeAway": null,
     "venue": "大浜だいしんアリーナ",
     "opponent": "デンソー アイリス",
-    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -207,7 +179,7 @@
     "venue": "かみす防災アリーナ",
     "opponent": "ＥＮＥＯＳサンフラワーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -221,7 +193,63 @@
     "venue": "かみす防災アリーナ",
     "opponent": "ＥＮＥＯＳサンフラワーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
+  },
+  {
+    "team": "富士通レッドウェーブ",
+    "sport": "basketball",
+    "league": "Wリーグ",
+    "competition": "第93回皇后杯 全日本バスケットボール選手権大会",
+    "date": "2027-01-05",
+    "weekday": "火",
+    "time": "12:00",
+    "homeAway": null,
+    "venue": "駒沢体育館 Aコート",
+    "opponent": null,
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
+  },
+  {
+    "team": "富士通レッドウェーブ",
+    "sport": "basketball",
+    "league": "Wリーグ",
+    "competition": "第93回皇后杯 全日本バスケットボール選手権大会【準々決勝】",
+    "date": "2027-01-07",
+    "weekday": "木",
+    "time": "12:00",
+    "homeAway": null,
+    "venue": "国立代々木競技場第二体育館",
+    "opponent": null,
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
+  },
+  {
+    "team": "富士通レッドウェーブ",
+    "sport": "basketball",
+    "league": "Wリーグ",
+    "competition": "第93回皇后杯 全日本バスケットボール選手権大会【準決勝】",
+    "date": "2027-01-09",
+    "weekday": "土",
+    "time": "16:00",
+    "homeAway": null,
+    "venue": "国立代々木競技場第二体育館",
+    "opponent": null,
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
+  },
+  {
+    "team": "富士通レッドウェーブ",
+    "sport": "basketball",
+    "league": "Wリーグ",
+    "competition": "第93回皇后杯 全日本バスケットボール選手権大会 【決勝】",
+    "date": "2027-01-10",
+    "weekday": "日",
+    "time": "15:00",
+    "homeAway": null,
+    "venue": "国立代々木競技場第二体育館",
+    "opponent": null,
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -235,7 +263,7 @@
     "venue": "横浜武道館",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -249,7 +277,7 @@
     "venue": "横浜武道館",
     "opponent": "デンソー アイリス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -263,7 +291,7 @@
     "venue": "横浜武道館",
     "opponent": null,
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -277,7 +305,7 @@
     "venue": "バルドラール浦安アリーナ",
     "opponent": "トヨタ紡織 サンシャインラビッツ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -291,7 +319,7 @@
     "venue": "バルドラール浦安アリーナ",
     "opponent": "トヨタ紡織 サンシャインラビッツ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -305,7 +333,7 @@
     "venue": "日立市池の川さくらアリーナ",
     "opponent": "日立ハイテク クーガーズ",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -318,8 +346,8 @@
     "homeAway": null,
     "venue": "日立市池の川さくらアリーナ",
     "opponent": "日立ハイテク クーガーズ",
-    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -332,8 +360,8 @@
     "homeAway": null,
     "venue": "豊橋市総合体育館",
     "opponent": "アイシン ウィングス",
-    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/2",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -347,7 +375,7 @@
     "venue": "豊橋市総合体育館",
     "opponent": "アイシン ウィングス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -361,7 +389,7 @@
     "venue": "横須賀アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -375,7 +403,7 @@
     "venue": "横須賀アリーナ",
     "opponent": "トヨタ自動車 アンテロープス",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -389,7 +417,7 @@
     "venue": "静岡県武道館",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   },
   {
     "team": "富士通レッドウェーブ",
@@ -403,6 +431,6 @@
     "venue": "静岡県武道館",
     "opponent": "シャンソン化粧品 シャンソン Vマジック",
     "sourceUrl": "https://sports.jp.fujitsu.com/redwave/pages/nextgames/page/3",
-    "fetchedAt": "2026-11-01T21:39:15.559Z"
+    "fetchedAt": "2026-11-08T21:38:57.866Z"
   }
 ]
