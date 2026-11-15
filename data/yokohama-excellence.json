@@ -4,34 +4,6 @@
     "sport": "basketball",
     "league": "B.LEAGUE ONE",
     "competition": "レギュラーシーズン",
-    "date": "2026-11-14",
-    "weekday": "土",
-    "time": "15:05",
-    "homeAway": "away",
-    "venue": "いしかわ総合スポーツセンター",
-    "opponent": "金沢",
-    "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
-  },
-  {
-    "team": "横浜エクセレンス",
-    "sport": "basketball",
-    "league": "B.LEAGUE ONE",
-    "competition": "レギュラーシーズン",
-    "date": "2026-11-15",
-    "weekday": "日",
-    "time": "14:05",
-    "homeAway": "away",
-    "venue": "いしかわ総合スポーツセンター",
-    "opponent": "金沢",
-    "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
-  },
-  {
-    "team": "横浜エクセレンス",
-    "sport": "basketball",
-    "league": "B.LEAGUE ONE",
-    "competition": "レギュラーシーズン",
     "date": "2026-11-21",
     "weekday": "土",
     "time": "17:35",
@@ -39,7 +11,7 @@
     "venue": "横浜BUNTAI",
     "opponent": "熊本",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -53,7 +25,7 @@
     "venue": "横浜BUNTAI",
     "opponent": "熊本",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -67,7 +39,7 @@
     "venue": "横浜武道館",
     "opponent": "岐阜",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -81,7 +53,7 @@
     "venue": "横浜武道館",
     "opponent": "岐阜",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -95,7 +67,7 @@
     "venue": "越前市アイシンスポーツアリーナ",
     "opponent": "福井",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -109,7 +81,7 @@
     "venue": "越前市アイシンスポーツアリーナ",
     "opponent": "福井",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -123,7 +95,7 @@
     "venue": "横浜BUNTAI",
     "opponent": "福岡",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -137,7 +109,7 @@
     "venue": "松山市総合コミュニティセンター",
     "opponent": "愛媛",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -151,7 +123,7 @@
     "venue": "松山市総合コミュニティセンター",
     "opponent": "愛媛",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -165,7 +137,7 @@
     "venue": "横浜武道館",
     "opponent": "新潟",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -179,7 +151,7 @@
     "venue": "横浜武道館",
     "opponent": "新潟",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -193,7 +165,7 @@
     "venue": "金沢市総合体育館",
     "opponent": "金沢",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -207,7 +179,7 @@
     "venue": "金沢市総合体育館",
     "opponent": "金沢",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -216,12 +188,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-01-20",
     "weekday": "水",
-    "time": null,
+    "time": "19:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "立川",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -230,12 +202,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-01-23",
     "weekday": "土",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "岐阜メモリアルセンター で愛ドーム",
     "opponent": "岐阜",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -244,12 +216,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-01-24",
     "weekday": "日",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "岐阜メモリアルセンター で愛ドーム",
     "opponent": "岐阜",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -258,12 +230,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-01-30",
     "weekday": "土",
-    "time": null,
+    "time": "15:05",
     "homeAway": "away",
     "venue": "セーレン・ドリームアリーナ（福井県営体育館）",
     "opponent": "福井",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -272,12 +244,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-01-31",
     "weekday": "日",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "セーレン・ドリームアリーナ（福井県営体育館）",
     "opponent": "福井",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -286,12 +258,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-03",
     "weekday": "水",
-    "time": null,
+    "time": "19:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "静岡",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -300,12 +272,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-05",
     "weekday": "金",
-    "time": null,
+    "time": "19:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "青森",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -314,12 +286,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-06",
     "weekday": "土",
-    "time": null,
+    "time": "15:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "青森",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -328,12 +300,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-13",
     "weekday": "土",
-    "time": null,
+    "time": "15:05",
     "homeAway": "away",
     "venue": "ロートアリーナ奈良",
     "opponent": "奈良",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -342,12 +314,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-14",
     "weekday": "日",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "ロートアリーナ奈良",
     "opponent": "奈良",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -356,12 +328,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-20",
     "weekday": "土",
-    "time": null,
+    "time": "17:05",
     "homeAway": "away",
     "venue": "エスフォルタアリーナ八王子(メイン)",
     "opponent": "八王子",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -370,12 +342,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-21",
     "weekday": "日",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "エスフォルタアリーナ八王子(メイン)",
     "opponent": "八王子",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -384,12 +356,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-24",
     "weekday": "水",
-    "time": null,
+    "time": "19:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "新潟",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -398,12 +370,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-26",
     "weekday": "金",
-    "time": null,
+    "time": "19:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "金沢",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -412,12 +384,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-02-27",
     "weekday": "土",
-    "time": null,
+    "time": "15:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "金沢",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -426,12 +398,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-03",
     "weekday": "水",
-    "time": null,
+    "time": "19:05",
     "homeAway": "away",
     "venue": "静岡市中央体育館",
     "opponent": "静岡",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -440,12 +412,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-06",
     "weekday": "土",
-    "time": null,
+    "time": "17:35",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "岩手",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -454,12 +426,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-07",
     "weekday": "日",
-    "time": null,
+    "time": "15:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "岩手",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -468,12 +440,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-13",
     "weekday": "土",
-    "time": null,
+    "time": "17:35",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "東京U",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -482,12 +454,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-14",
     "weekday": "日",
-    "time": null,
+    "time": "15:05",
     "homeAway": "home",
     "venue": "横浜武道館",
     "opponent": "東京U",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -496,12 +468,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-17",
     "weekday": "水",
-    "time": null,
+    "time": "19:05",
     "homeAway": "away",
     "venue": "シティホールプラザ アオーレ長岡",
     "opponent": "新潟",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -510,12 +482,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-20",
     "weekday": "土",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "OKBぎふ清流アリーナ",
     "opponent": "岐阜",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -524,12 +496,12 @@
     "competition": "レギュラーシーズン",
     "date": "2027-03-21",
     "weekday": "日",
-    "time": null,
+    "time": "14:05",
     "homeAway": "away",
     "venue": "OKBぎふ清流アリーナ",
     "opponent": "岐阜",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -543,7 +515,7 @@
     "venue": "横浜BUNTAI",
     "opponent": "福井",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -557,7 +529,7 @@
     "venue": "横浜BUNTAI",
     "opponent": "福井",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -571,7 +543,7 @@
     "venue": "横浜アリーナ",
     "opponent": "金沢",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -585,7 +557,7 @@
     "venue": "横浜アリーナ",
     "opponent": "金沢",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -599,7 +571,7 @@
     "venue": "バタフライアリーナ所沢(所沢市民体育館)",
     "opponent": "埼玉",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -613,7 +585,7 @@
     "venue": "バタフライアリーナ所沢(所沢市民体育館)",
     "opponent": "埼玉",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -627,7 +599,7 @@
     "venue": "シティホールプラザ アオーレ長岡",
     "opponent": "新潟",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   },
   {
     "team": "横浜エクセレンス",
@@ -641,6 +613,6 @@
     "venue": "シティホールプラザ アオーレ長岡",
     "opponent": "新潟",
     "sourceUrl": "https://yokohama-ex.jp/schedule/list/?year=2026&month=all",
-    "fetchedAt": "2026-11-08T21:38:53.542Z"
+    "fetchedAt": "2026-11-15T22:26:34.414Z"
   }
 ]

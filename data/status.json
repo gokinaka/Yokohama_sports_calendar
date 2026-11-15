@@ -1,23 +1,23 @@
 {
-  "builtAt": "2026-11-08T21:39:09.024Z",
+  "builtAt": "2026-11-15T22:26:50.221Z",
   "teams": [
     {
       "team": "横浜F・マリノス",
       "sport": "soccer",
       "league": "J1",
-      "total": 27,
-      "upcoming": 27,
+      "total": 25,
+      "upcoming": 25,
       "latestDate": "2027-06-06",
-      "fetchedAt": "2026-11-08T21:38:39.851Z"
+      "fetchedAt": "2026-11-15T22:26:19.740Z"
     },
     {
       "team": "川崎フロンターレ",
       "sport": "soccer",
       "league": "J1",
       "total": 52,
-      "upcoming": 33,
+      "upcoming": 31,
       "latestDate": "2027-06-06",
-      "fetchedAt": "2026-11-08T21:38:39.894Z"
+      "fetchedAt": "2026-11-15T22:26:19.778Z"
     },
     {
       "team": "横浜FC",
@@ -26,16 +26,16 @@
       "total": 3,
       "upcoming": 3,
       "latestDate": "2026-12-05",
-      "fetchedAt": "2026-11-08T21:38:40.732Z"
+      "fetchedAt": "2026-11-15T22:26:20.785Z"
     },
     {
       "team": "湘南ベルマーレ",
       "sport": "soccer",
       "league": "J2",
       "total": 41,
-      "upcoming": 22,
+      "upcoming": 21,
       "latestDate": "2027-05-23",
-      "fetchedAt": "2026-11-08T21:38:41.664Z"
+      "fetchedAt": "2026-11-15T22:26:21.801Z"
     },
     {
       "team": "横浜DeNAベイスターズ",
@@ -50,10 +50,10 @@
       "team": "NECレッドロケッツ川崎",
       "sport": "volleyball",
       "league": "SVリーグ",
-      "total": 33,
-      "upcoming": 33,
+      "total": 31,
+      "upcoming": 31,
       "latestDate": "2027-03-28",
-      "fetchedAt": "2026-11-08T21:38:45.405Z"
+      "fetchedAt": "2026-11-15T22:26:25.947Z"
     },
     {
       "team": "木下アビエル神奈川",
@@ -62,16 +62,16 @@
       "total": 25,
       "upcoming": 12,
       "latestDate": "2027-03-07",
-      "fetchedAt": "2026-11-08T21:38:46.224Z"
+      "fetchedAt": "2026-11-15T22:26:26.924Z"
     },
     {
       "team": "アースフレンズBM東京・神奈川",
       "sport": "handball",
       "league": "リーグH",
       "total": 25,
-      "upcoming": 21,
+      "upcoming": 20,
       "latestDate": "2027-05-15",
-      "fetchedAt": "2026-11-08T21:38:47.467Z"
+      "fetchedAt": "2026-11-15T22:26:28.155Z"
     },
     {
       "team": "横浜キヤノンイーグルス",
@@ -80,43 +80,43 @@
       "total": 18,
       "upcoming": 18,
       "latestDate": "2027-05-09",
-      "fetchedAt": "2026-11-08T21:38:48.199Z"
+      "fetchedAt": "2026-11-15T22:26:28.879Z"
     },
     {
       "team": "横浜ビー・コルセアーズ",
       "sport": "basketball",
       "league": "B.LEAGUE PREMIER",
-      "total": 45,
-      "upcoming": 45,
+      "total": 43,
+      "upcoming": 43,
       "latestDate": "2027-05-01",
-      "fetchedAt": "2026-11-08T21:38:49.026Z"
+      "fetchedAt": "2026-11-15T22:26:29.709Z"
     },
     {
       "team": "川崎ブレイブサンダース",
       "sport": "basketball",
       "league": "B.LEAGUE PREMIER",
-      "total": 46,
-      "upcoming": 46,
+      "total": 43,
+      "upcoming": 43,
       "latestDate": "2027-05-02",
-      "fetchedAt": "2026-11-08T21:38:53.198Z"
+      "fetchedAt": "2026-11-15T22:26:34.057Z"
     },
     {
       "team": "横浜エクセレンス",
       "sport": "basketball",
       "league": "B.LEAGUE ONE",
-      "total": 46,
-      "upcoming": 46,
+      "total": 44,
+      "upcoming": 44,
       "latestDate": "2027-04-25",
-      "fetchedAt": "2026-11-08T21:38:53.542Z"
+      "fetchedAt": "2026-11-15T22:26:34.414Z"
     },
     {
       "team": "富士通レッドウェーブ",
       "sport": "basketball",
       "league": "Wリーグ",
-      "total": 31,
-      "upcoming": 31,
+      "total": 29,
+      "upcoming": 29,
       "latestDate": "2027-03-14",
-      "fetchedAt": "2026-11-08T21:38:57.866Z"
+      "fetchedAt": "2026-11-15T22:26:38.768Z"
     }
   ]
 }
